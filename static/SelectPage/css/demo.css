@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+body{
+	/* background-color: #727f80; */
+}
+.navbar{
+	margin-bottom: 0px;
+}
+header{
+	background-color: white;
+	color: #666666;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+	color: #555;
+	background-color: #e7e7e7;
+}
+.content{
+	background-color: white;
+}
+.content .jumbotron{
+	background-color: white;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.content .jumbotron h1 {
+	font-size: 50px;
+	font-weight: lighter;
+}
+.content .row h3{
+	text-align: center;
+	color: #337AB7;
+}
+.content .row h3 i{
+}
+.content .desc{
+	font-size: 15px;
+	color: #666666;
+	margin: 0px 50px 20px 50px;
+}
+
+.pluginImg{
+	text-align: right;
+}
+.pluginImg img{
+	margin-top: 50px;
+}
+
+.footer div.container{
+	color: #F0F0F0;
+	text-align: center;
+	padding: 50px 0px;
+}
+.logBox{
+	background-color: #EEEEEE;height: 100px;margin-top: 5px;border-radius: 4px;padding: 5px 10px;
+	overflow-y:auto; 
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body style="padding: 15px;">
+<a href="javascript:;" onclick="tjgly()" class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe654;</i>   添加管理员</a>
+<table class="layui-table">
+<tr>
+    <td>id</td>
+    <td>用户名</td>
+    <td>登录时间</td>
+    <td>所属分组</td>
+    <td>操作</td>
+    <td>重置密码</td>
+</tr>
+
+    {volist name="list" id="v"}
+    <tr>
+        <td>{$v.id}</td>
+        <td>{$v.username}</td>
+        <td>{$v.login_time|date = "Y-m-d H:i:s" ,###}</td>
+        <td>{$v.title}</td>
+        <td>
+            <a href="javascript:;" onclick="del_cate_item({$v.id});"><i class="layui-icon">&#xe640;</i> 删除</a>
+            <!--<a href="{:url('edit',['id'=>$v['id']])}"> <i class="layui-icon">&#xe642;</i>  修改</a>-->
+        </td>
+        <td><button class="layui-btn layui-btn-sm" onclick="reset_pass({$v.id})"><i class="layui-icon">&#xe9aa;</i>  重置密码</button></td>
+    </tr>
+    {/volist}
+</table>
+{$list->render()}
+<script>
+    function  del_cate_item(id){
+        layer.confirm('确定要删除么？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            var url = "{:url('del')}";
+            $.post(url,{id:id},function(data){
+                if(data.status == 1){
+                    success(data.msg);
+                    reload(2);
+                }else{
+                    error(data.msg);
+                }
+
+            });
+        }, function(){
+            layer.msg('取消成功', {
+
+            });
+        });
+    }
+    function tjgly() {
+        var url = "{:url('add')}";
+        layer.open({
+            type: 2,
+            area: ['700px', '500px'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    /**
+     * 重置用户密码
+     * @param id
+     */
+    function  reset_pass(id){
+        layer.confirm('确定要重置改用户的密码么？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            var url = "{:url('User/reset_pass')}";
+            $.post(url,{id:id},function(data){
+                if(data.status == 1){
+                    success(data.msg);
+                    reload(2);
+                }else{
+                    error(data.msg);
+                }
+
+            });
+        }, function(){
+            layer.msg('取消成功', {
+
+            });
+        });
+    }
+</script>
+
+
+{include file="public/footer" /}
+</body>
+</html>

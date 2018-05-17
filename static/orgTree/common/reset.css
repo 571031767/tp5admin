@@ -1,0 +1,121 @@
+/*===== 清除默认的margin的属性值 =====*/
+
+body,  blockquote,  dd,  dl,  figure,  form,  p,  pre,  h1,  h2,  h3,  h4,  h5,  h6 {
+	margin: 0;
+}
+/*===== 字体控制 =====*/
+
+body,  input,  button,  select,  optgroup,  option,  textarea,  pre {
+	font-family: Arial, 'Microsoft YaHei'， 'sans-serif';
+}
+/*===== 统一设置列表的margin和padding，以及列表表形式 =====*/
+
+menu,  ul,  ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*===== 去除个别浏览器图片底部的几个像素，以及设置图片形式链接无边框 =====*/
+
+img {
+	vertical-align: middle;
+	border: 0;
+}
+a img {
+	border: 0 none;
+}
+/*=====  设置按钮手势    =====*/
+
+input[type="button"],  input[type="submit"],  input[type="reset"] {
+	cursor: pointer;
+} /* 设置字体大小，这部分跟前面写在一起，IE6中会无效 */
+/*===== 设置表格元素的样式 =====*/
+
+table {
+	border-spacing: 0;
+} /* 合并表格的间隙，去掉单元格之间的间距，如有需要合并单元格为细线表格，可增加 border-collapse:collapse; */
+td, th, caption {
+	padding: 0;
+} /* 去除单元格以及caption表头的padding值 */
+/*=====  设置a标签链接无虚线框 =====*/
+
+a {
+	behavior: url(common/link.htc);
+	text-decoration: none;
+}
+area {
+	behavior: url(common/link.htc)
+}
+/*===== 手机版本网页a标记虚线框问题 =====*/
+
+a:focus {
+	outline: none;
+	-moz-outline: none;
+}
+/*===== 清除浮动 =====*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.clearfix {
+*+height:1%;
+}
+.divclear {
+	clear: both;
+	visibility: hidden;
+	line-height: 0px;
+	height: 0px;
+	font-size: 0;
+}
+/*===== 字体样式设置 =====*/
+
+.textAlign {
+	text-align: Justify;
+	text-justify: inter-ideograph;
+}/*左右对齐*/
+/*===== 左右浮动 =====*/
+
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+/*===== 最小高度兼容 =====*/
+
+.minheight500 {
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+	overflow: visible;
+}
+/*===== 超出宽度设置为省略号 =====*/
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*===== 取消chrome form表单的聚焦边框 =====*/
+
+input, button, select, textarea {
+	outline: none
+}
+textarea {
+	resize: none
+}
+/*===== 取消textarea右下角可拖动手柄 =====
+
+textarea{ resize:none }*/
+
+/*===== webkit 水平居中 =====*/
+
+.divmiddle {
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}

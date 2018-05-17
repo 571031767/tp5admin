@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<button onclick="open_add_html()" class="layui-btn layui-btn-primary" style="float: left"><i class="layui-icon" style="font-size: 30px; color: red">&#xe654;</i> 新增轮播</button>
+
+<form action="{:url('index')}" method="post" style="float: left; margin-left: 15px;">
+    <div class="layui-form-item">
+        <div class="layui-input-inline">
+            <input type="text" name="title" required lay-verify="required" placeholder="输入关键词" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux"><button type="submit" class="layui-btn" style="margin-top: -8px">搜索</button></div>
+    </div>
+</form>
+
+<table class="layui-table">
+<tr>
+    <td>id</td>
+    <td>名称</td>
+    <td>图片</td>
+    <td>添加时间</td>
+    <td>添加者</td>
+    <td>是否显示</td>
+    <td>操作</td>
+</tr>
+
+    {volist name="list" id="v"}
+    <tr>
+        <td>{$v.id}</td>
+        <td>{$v.title}</td>
+        <td><img src="/{$v.picture}" alt=""></td>
+        <td>{$v.add_time|date = "Y-m-d H:i:s" ,###}</td>
+        <td>{$v.user}</td>
+        <td>
+            <span id="status" onclick="change_status({$v.id});" style="cursor: pointer" class="layui-btn layui-btn-primary">
+            {switch name="$v.status"}
+                {case value="1"}
+                <i class="layui-icon">是&#xe618;</i>
+                {/case}
+                {default}
+                <i class="layui-icon">否&#x1006;</i>
+            {/switch}
+            </span>
+        </td>
+
+        <td>
+            <a href="javascript:;" onclick="del_cate_item({$v.id});" class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe640;</i> 删除</a>
+            &nbsp;&nbsp;&nbsp
+        </td>
+    </tr>
+    {/volist}
+</table>
+{$list->render()}
+<script>
+    function  del_cate_item(id){
+        layer.confirm('确定要删除么？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            var url = "{:url('del')}";
+            $.post(url,{id:id},function(data){
+                if(data.status == 1){
+                    layer.msg(data.msg);
+                }else{
+                    layer.msg(data.msg);
+                }
+                window.location.reload();
+            });
+        }, function(){
+            layer.msg('取消成功', {
+
+            });
+        });
+    }
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form;
+
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            layer.msg(JSON.stringify(data.field));
+            return false;
+        });
+    });
+
+
+    function change_status(id) {
+        var url="{:url('change_status')}";
+        $.post(url,{id:id},function (e) {
+            if(e.status == 1){
+                $("#status").html('<i class="layui-icon">是&#xe618;</i>');
+            }else {
+                $("#status").html('<i class="layui-icon">否&#x1006;</i>');
+            }
+        },"json");
+    }
+    
+    function open_add_html() {
+        var url = "{:url('add')}";
+        layer.open({
+            title:'新增轮播',
+            type: 2,
+            area: ['90%', '80%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+</script>
+
+{include file="public/footer" /}
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/bootstrap/2.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+<link rel="stylesheet" href="css/selectpage.css" type="text/css">
+<link rel="stylesheet" href="css/demo.css" />
+
+</head>
+
+<body>
+
+
+	<div class="container" style="margin-top: 50px;">
+		<h1 class="heading">下拉分页控件 <small>支持下拉，分页，键盘操作等功能</small></h1>
+		<div class="row-fluid">
+			<h4 class="heading">基本初始化 <small></small></h4>
+			<input type="text" id="selectPage" class="" placeholder="请输入查询关键字" >
+<pre>
+//表单声明元素
+< input type="text" id="selectPage" class="input-block-level" >
+//定义数组，在服务端返回的数据也以该格式返回：Array[{Object},{...}]
+var tag_data = [
+    {id:1 ,name:'Chicago Bulls',desc:'芝加哥公牛'},
+    {id:2 ,name:'Cleveland Cavaliers',desc:'克里夫兰骑士'},
+    {id:3 ,name:'Detroit Pistons',desc:'底特律活塞'},
+    {id:4 ,name:'Indiana Pacers',desc:'印第安纳步行者'}
+];
+//showField：设置下拉列表中显示文本的列
+//keyField：设置下拉列表项目中项目的KEY值，用于提交表单
+//data：数据源，可以是JSON数据格式，也可以是URL
+//callback：选中项目后的回调函数
+$('#selectPage').bSelectPage({
+    showField : 'desc',
+    keyField : 'id',
+    data : tag_data
+});
+</pre>
+		</div>
+		<div class="row-fluid">
+			<h4 class="heading">设置初始化选中项目 <small>以及请求参数传递等……</small></h4>
+			<div class="pull-right">
+				<input type="text" id="selectPage1"  class="input-medium" data-init="4" >
+			</div>
+<pre>
+//data-init：设置列表初始被选中的项目，传递值为keyField对应的内容
+< input type="text" id="selectPage1" data-init="4" >
+$('#selectPage').bSelectPage({
+    showField : 'desc',
+    keyField : 'id',
+    data : '/sys/userinfo',
+    params : function(){return {'name':'aa','sex':1};}
+});
+</pre>
+		</div>
+			
+		<div class="row-fluid">
+			<h4 class="heading">项目显示文本自定义 <small>允许根据现有数据字段进行自由组合</small></h4>
+			<input type="text" id="selectPage2" class="input-xlarge" placeholder="请输入查询关键字" >
+<pre>
+< input type="text" id="selectPage" class="input-xlarge" >
+$('#selectPage').bSelectPage({
+    showField : 'desc',
+    keyField : 'id',
+    data : tag_data,
+    //格式化显示项目，提供源数据进行使用
+    formatItem : function(data){
+        return data.desc + '(' + data.name + ')';
+    }
+});
+</pre>
+		</div>
+		<div class="row-fluid">
+			<h4 class="heading">多项选择模式 <small></small></h4>
+			<input type="text" id="selectPage3" class="input-block-level" placeholder="请输入查询关键字" >
+<pre>
+< input type="text" id="selectPage" class="input-block-level" >
+$('#selectPage').bSelectPage({
+    showField : 'desc',
+    keyField : 'id',
+    data : tag_data,
+    //启用多选模式
+    multiple : true
+});
+</pre>
+		</div>
+
+		<div class="row-fluid">
+			<h4 class="heading">事件回调处理 <small>项目选中后，触发的事件处理</small></h4>
+			<input type="text" id="selectPage4" class="input-block-level" placeholder="请输入查询关键字" >
+			<div id="callbackLog" class="logBox"></div>
+<pre>
+< input type="text" id="selectPage" class="input-block-level" >
+$('#selectPage').bSelectPage({
+    showField : 'desc',
+    keyField : 'id',
+    data : tag_data,
+    multiple : true,
+    //选中项目后的回调处理
+    //入参：data：选中行的原始数据对象
+    callback : function(data){
+        $('#callbackLog').append(data.desc + '(' + data.name + ')<br/>');
+    }
+});
+</pre>
+		</div>
+	</div>
+
+
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
+
+<script type="text/javascript" src="js/selectpage.js" ></script>
+<script type="text/javascript" src="js/b.selectpage.js" ></script>
+<script type="text/javascript" src="js/demo.js" ></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    {include file="public/head" /}
+    <style>
+    th{font-weight: 500;font-size: 18px;}
+    </style>
+</head>
+<body>
+
+
+<a  class="layui-btn layui-btn-danger" href="javascript:;" onclick="add_new_menu();"><i class="layui-icon">&#xe608;</i> 添加顶级新菜单</a>
+
+
+<div>
+    <table class="layui-table">
+        <thead style="font-weight: 500">
+        <tr style="font-weight: 500">
+            <th width="20">id</th>
+            <th width="480">菜单名</th>
+            <th width="100">模块名</th>
+            <th width="100">action</th>
+            <th width="50">图标</th>
+            <th width="100">排序</th>
+            <th width="400">操作</th>
+        </tr>
+        </thead>
+        {volist name='list' id='v'}
+        <tr>
+           <td> {$v.id}</td>
+            {if condition="$v.level eq 1"}
+            <td>{$v.html}{$v.name}</td>
+            {else /}
+            <td style="height: 1cm; line-height: 1cm;"><span style="margin-left: {$v.level-1}cm; float: left">┝━━{$v.name}</span></td>
+            {/if}
+
+
+            <td>{$v.model_name}</td>
+            <td>{$v.action_name}</td>
+            <td><i class="layui-icon">{$v.icon}</i></td>
+            <td>
+                <input class="o{$v.id}" type="text" style="width: 50px;" name="o" value="{$v.o}">
+                <input type="button" onclick="menu_sort_save({$v.id});" value="保存">
+            </td>
+            <td>
+                <a class="layui-btn layui-btn-primary" href="javascript:;" onclick="add_new_menu({$v.id});"><i class="layui-icon">&#xe608;</i>  添加子菜单</a>
+                &nbsp;&nbsp;&nbsp;
+
+                <a class="layui-btn layui-btn-primary" href="javascript:;" onclick="del_conf_item({$v.id});"><i class="layui-icon">&#xe640;</i> 删除</a>
+                &nbsp;&nbsp;&nbsp;
+
+                <a class="layui-btn layui-btn-primary" href="{:url('edit',['id'=>$v['id']])}"> <i class="layui-icon">&#xe642;</i>  修改</a>
+            </td>
+        </tr>
+        {/volist}
+        <tr>
+            <td colspan="7" style="color: red">
+                共<?=count($list)?>条数据
+            </td>
+        </tr>
+    </table>
+
+
+</div>
+
+
+
+
+<script>
+    $('#set_conf_items').mouseover(function(){
+        layer.tips('所有配置项都会重新生成！如果新增了配置项，请务必重新生成一遍！防止不必要的错误', '#set_conf_items');
+    });
+    function  del_conf_item(id){
+        layer.confirm('您确定要删除此项？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            var url = "{:url('del_item')}";
+            $.post(url,{id:id },function(data){
+                if(data.status == 1){
+                    success(data.msg);
+                    reload(3);
+                }else {
+                    error(data.msg);
+                }
+            },'json');
+
+        }, function(){
+            layer.msg('已取消');
+        });
+    }
+    function add_new_menu(pid){
+        if(!pid){
+            var url = "{:URL('MyAuth/add_new_menu')}";
+        }else {
+            var url = "{:URL('MyAuth/add_new_menu')}?pid="+pid;
+        }
+
+        //iframe层-父子操作
+        layer.open({
+            type: 2,
+            area: ['50%', '70%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+
+
+
+    }
+    function menu_sort_save(id) {
+        var o=$('.o'+id).val();
+        var url="{:url('menu_sort_save')}";
+        $.post(url,{id:id,o:o},function(e){
+            if(e.status ==1 ){
+                layer.msg(e.msg, {icon: 1});
+            }else {
+                layer.msg(e.msg, {icon: 0});
+            }
+            window.location.reload();
+        });
+    }
+</script>
+{include file="public/footer" /}
+</body>
+</html>

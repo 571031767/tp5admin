@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    {include file="public/head" /}
+</head>
+<body>
+
+
+
+
+
+
+{include file="public/nav" /}
+
+
+
+<div class="layui-collapse">
+    <div class="layui-colla-item">
+        <h2 class="layui-colla-title">个人信息</h2>
+        <div class="layui-colla-content layui-show">
+            <p>用户名：{:session('username')}</p>
+            <p>登录ip：{$ip}</p>
+        </div>
+    </div>
+    <div class="layui-colla-item">
+        <h2 class="layui-colla-title">系统信息</h2>
+        <div class="layui-colla-content layui-show">
+            <p>服务器操作系统：<?PHP echo PHP_OS; ?>                </p>
+            <p>php版本：<?PHP echo PHP_VERSION; ?>                </p>
+            <p>最大上传限制：<?PHP echo get_cfg_var ("upload_max_filesize")?get_cfg_var ("upload_max_filesize"):"不允许上传附件"; ?>                </p>
+            <p>zend 版本：<?PHP echo zend_version(); ?>                </p>
+            <p>mysql持续链接： <?php echo @get_cfg_var("mysql.allow_persistent")?"是 ":"否"; ?>                </p>
+            <p>mysql 最大连接:<?php echo @get_cfg_var("mysql.max_links")==-1 ? "不限" : @get_cfg_var("mysql.max_links"); ?>                </p>
+        </div>
+    </div>
+
+    <div class="layui-colla-item">
+        <h2 class="layui-colla-title">提示建议</h2>
+        <div class="layui-colla-content layui-show">
+            <p>本软件是个人开发，其他人仅供修改和学习，请勿使用做商业用途！</p>
+        </div>
+    </div>
+
+
+    <div class="layui-colla-item">
+        <h2 class="layui-colla-title">网站信息</h2>
+        <div class="layui-colla-content layui-show">localhost</div>
+    </div>
+</div>
+
+<script>
+    //注意：折叠面板 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function(){
+        var element = layui.element();
+
+        //…
+    });
+</script>
+
+
+
+
+{include file="public/footer" /}
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    {include file="public/head" /}
+</head>
+<body>
+<blockquote class="layui-elem-quote">
+    执行原生sql语句
+</blockquote>
+
+<div>
+    <form class="layui-form" action="{:url('Database/sql')}" method="post">
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">文本域</label>
+        <div class="layui-input-block">
+            <textarea style="height: 600px;" name="sql" placeholder="请输入sql语句(此高级功能只针对框架开发人员使用)" class="layui-textarea"></textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+    </form>
+</div>
+
+
+
+
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form;
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            //layer.msg(JSON.stringify(data.field));
+            if(data.sql == ""){
+                return false;
+            }else {
+                return true;
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

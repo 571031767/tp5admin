@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<div style="height: 50px;"></div>
+<form action="{:url('')}" method="post" class="layui-form">
+
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">组名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="title" required value="" placeholder="请输入" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux"></div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+
+</form>
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form();
+    });
+</script>
+
+
+
+</body>
+</html>

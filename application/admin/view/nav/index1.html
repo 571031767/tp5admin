@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+{include file="public/nav" /}
+
+
+<form class="layui-form" action="" style="margin-top: 20px;">
+
+
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">导航名</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                </div>
+
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">导航链接</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="title" required  lay-verify="required" placeholder="请以http://开头" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">单选框</label>
+        <div class="layui-input-block">
+            <input type="radio" name="sex" value="男" title="男">
+            <input type="radio" name="sex" value="女" title="女" checked>
+        </div>
+    </div>
+
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">文本域</label>
+                <div class="layui-input-block">
+                    <select name="city" lay-verify="">
+                        <option value="">导航位置</option>
+                        <option value="1">顶部</option>
+                        <option value="0">常规[主导航]</option>
+                        <option value="2">底部</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">是否新窗口打开</label>
+                <div class="layui-input-block">
+                    是<input type="radio" name="sex" value="1" title="是" checked>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    否<input type="radio" name="sex" value="0" title="否" >
+                </div>
+            </div>
+
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+
+</form>
+
+
+
+<script>
+    //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function(){
+        var element = layui.element();
+        var form = layui.form();
+
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            layer.msg(JSON.stringify(data.field));
+            return false;
+        });
+
+        //…
+    });
+</script>
+
+
+{include file="public/footer" /}
+</body>
+</html>

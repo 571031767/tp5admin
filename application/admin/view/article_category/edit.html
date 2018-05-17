@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+
+<blockquote class="layui-elem-quote">修改文章分类</blockquote>
+
+<form action="{:url('edit')}" method="post">
+    <input type="hidden" name="id" value="{$res.id}">
+    <div class="layui-form-item">
+        <label class="layui-form-label">分类名</label>
+        <div class="layui-input-block">
+            <input type="text" name="category_name" value="{$res.category_name}" required  lay-verify="required" placeholder="请输入分类名" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">排序</label>
+        <div class="layui-input-inline">
+            <input type="text" name="oid" placeholder="请输入" value="{$res.oid}" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">文章排序越小越靠前</div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">seo_key</label>
+        <div class="layui-input-block">
+            <input type="text" name="category_seo_key"  value="{$res.category_seo_key}" placeholder="请输入" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">seo_description</label>
+        <div class="layui-input-block">
+            <textarea name="category_seo_description" placeholder="seo_description" class="layui-textarea">{$res.category_seo_description}</textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+
+</form>
+</body>
+</html>

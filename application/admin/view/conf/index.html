@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    {include file="public/head" /}
+</head>
+<body>
+<blockquote class="layui-elem-quote">
+    配置项列表
+</blockquote>
+<button onclick="add_conf()"  href="{:url('add')}" class="layui-btn layui-btn-primary"><i class="layui-icon layui-icon-add-1"></i> 新增配置项</button>
+<div>
+    <table class="layui-table">
+        <tr>
+            <td width="10">id</td>
+            <td width="200">名称</td>
+            <td width="200">英文名</td>
+            <td width="400">值(value)</td>
+            <td width="600">说明</td>
+            <td width="200">前台调用</td>
+            <td width="200">后台调用</td>
+            <td width="250">删除|修改</td>
+        </tr>
+        {volist name='list' id='v'}
+        <tr>
+           <td> {$v.id}</td>
+            <td> {$v.ch_name}</td>
+            <td> {$v.en_name}</td>
+            <td> {$v.conf_value}</td>
+            <td> {$v.info}</td>
+            <td>{literal}{:config('conf.{/literal}{$v.en_name}')}</td>
+            <td>{literal}config('conf.{/literal}{$v.en_name}')</td>
+            <td>
+                <a href="javascript:;" onclick="del_conf_item({$v.id});" class="layui-btn layui-btn-xs layui-btn-disabled"><i class="layui-icon">&#xe640;</i> 删除</a>
+                &nbsp;&nbsp;&nbsp;
+
+                <a href="{:url('edit',['id'=>$v['id']])}" onclick="edit()" class="layui-btn layui-btn-xs layui-btn-primary"> <i class="layui-icon">&#xe642;</i>  修改</a>
+            </td>
+        </tr>
+        {/volist}
+    </table>
+</div>
+{$list->render()}
+
+<button id="set_conf_items" class="layui-btn layui-btn-danger">生成配置项</button>
+<br>
+<br>
+
+
+<script>
+    $('#set_conf_items').mouseover(function(){
+        layer.tips('所有配置项都会重新生成！如果新增了配置项，请务必重新生成一遍！防止不必要的错误', '#set_conf_items');
+    })
+    $('#set_conf_items').click(function(){
+        var  url="{:url('conf/set_conf_items')}";
+        $.post(url,{all:'all'},function(data){
+                if(data == 1){
+                    layer.msg('更新成功');
+                }else{
+                    layer.msg('更新失败');
+                }
+        })
+    })
+
+    function  del_conf_item(id){
+        layer.confirm('您确定要删除此项？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            var url = "{:url('conf/del_conf_item')}";
+            $.post(url,{id:id },function(data){
+                var msg = data['msg'];
+                layer.msg('删除成功');
+                setTimeout(ref(),3000);
+
+            });
+
+        }, function(){
+            layer.msg('已取消');
+        });
+    }
+    function  ref(){
+        window.location.reload();
+    }
+    
+    function add_conf() {
+        var url = "{:url('add')}";
+        layer.open({
+            type: 2,
+            area: ['700px', '100%'],
+            scrollbar: false,
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    
+    function edit(url) {
+        alert(11);
+//        layer.open({
+//            type: 2,
+//            area: ['700px', '100%'],
+//            fixed: false, //不固定
+//            maxmin: true,
+//            content: url
+//        });
+    }
+
+</script>
+
+
+{include file="public/footer" /}
+</body>
+</html>

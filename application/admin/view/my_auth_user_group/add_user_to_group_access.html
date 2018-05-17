@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+    <tr>
+        <th>会员名</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>提示：单击即可加入！</td>
+    </tr>
+        {volist name="list" id="v"}
+        <tr onclick="ajax_add_user_to_group_access({$v.id});">
+            <td>{$v.username}</td>
+        </tr>
+        {/volist}
+    </tbody>
+</table>
+
+
+<script>
+function ajax_add_user_to_group_access(id){
+    var gid = {$gid};
+    var url = "{:Url('add_user_to_group_access')}";
+    $.post(url,{uid:id,gid:gid},function(e){
+        if(e == 1){
+            layer.msg('添加成功');
+        }
+        if(e == 2){
+            layer.msg('添加失败');
+        }
+        if(e == 3){
+            layer.msg('已添加过了！');
+        }
+    },'json')
+}
+
+</script>
+
+{include file="public/footer" /}
+</body>
+</html>

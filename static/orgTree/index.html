@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>orgTree</title>
+</head>
+<link rel="stylesheet" href="common/reset.css">
+<style type="text/css">
+.form-control__dept {
+	margin: 100px;
+}
+.form-control__label {
+	float: left;
+	line-height: 38px;
+}
+.form-control__input {
+	margin-left: 100px;
+}
+.titile {
+	margin: 50px 100px;
+}
+.titile h4{
+	position: absolute;
+	margin-top: 15px;
+}
+.titile h4:after {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	right: -10px;
+	height: 2px;
+	background-color: #ccc;
+}
+#checkBtn {
+	margin: 50px 100px 0;
+	padding: 5px 15px;
+	background-color: #E4E6E9;
+	color: #666;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+#checkBtn:hover {
+	color: #fff;
+	background-color: #000;
+}
+</style>
+<body>
+	<div class="titile">
+		<h1>orgTree</h1>
+		<h4>一款基于树结构的选择器，本地预览请用火狐浏览器，点击修改查看效果</h4>
+	</div>
+	
+	<div class="form-control form-control__dept">
+		<div class="form-control__label"><label class="form-label">授权部门</label></div>
+		<div class="form-control__input">
+			<div class="js_party_select_result">
+				<div class="js_party_select_result_list"></div>
+				<a class="js_show_party_selector" href="javascript:;"></a>
+				<input id="field-dept" class="form-input" type="hidden" name="dept" value="1;111224;" style="display: none;">
+			</div>
+		</div>
+	</div>	
+		
+	<div id="checkBtn">点击查看已选择内容的id</div>
+	
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src='libs/orgTree.js'></script>	
+<script>
+$(function(){
+
+	// 调用
+	$('.form-control').orgTree({
+        all: true,                //人物组织都开启
+        area: ['620px','542px'],  //弹窗框宽高
+        search: true              //开启搜索
+	});
+
+	//其他
+	$('#checkBtn').on('click', function(){
+		alert($('#field-dept').val());
+	});
+
+});
+</script>
+</body>
+</html>

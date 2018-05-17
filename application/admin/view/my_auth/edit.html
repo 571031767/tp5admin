@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<div style="height: 20px;"></div>
+<form action="{:url('MyAuth/add_new_menu')}" method="post" class="layui-form">
+
+
+    <input type="hidden" name="id" value="{$res.id}">
+    <div class="layui-form-item" style="width: 700px;">
+        <label class="layui-form-label">菜单名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="name" value="{$res.name}" required  lay-verify="required" placeholder="请输入菜单名" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">模块名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="model_name" value="{$res.model_name}" placeholder="请输入模块名" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">限英文并且没有特殊符号</div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">方法名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="action_name" value="{$res.action_name}" placeholder="请输入方法名" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">限英文并且没有特殊符号</div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">图标</label>
+        <div class="layui-input-inline">
+            <input type="text" name="icon" value="{$res.icon}" placeholder="请输入图标-具体参考layui 图标" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux"></div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否显示</label>
+        <div class="layui-input-inline">
+            <input type="radio" name="is_menu" value="1" title="是" {if $res.is_menu eq 1}checked{/if}>
+            <input type="radio" name="is_menu" value="0" title="否" {if $res.is_menu eq 0}checked{/if}>
+        </div>
+        <div class="layui-form-mid layui-word-aux">是否会在左侧菜单栏显示</div>
+    </div>
+
+    <div class="layui-form-item layui-form-text" style="width: 700px;">
+        <label class="layui-form-label">说明</label>
+        <div class="layui-input-block">
+            <textarea name="info" placeholder="" class="layui-textarea">{$res.info}</textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+
+</form>
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form();
+    });
+</script>
+
+
+
+</body>
+</html>

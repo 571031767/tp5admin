@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+
+
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+    <tr>
+        <th>用户名</th>
+        <th>option</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name="list" id="v"}
+    <tr>
+        <td>{$v.username}</td>
+        <td>
+            <a class="layui-btn" href="javascript:;" onclick="remove_user({$v.id})">移除</a>
+        </td>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
+<script>
+    function remove_user(id){
+        var url = "{:url('remove_user')}";
+        $.post(url,{uid:id},function(e){
+            if(e == 1){
+                layer.msg('移除成功');
+            }else {
+                layer.msg('失败，请重试');
+            }
+            window.location.reload();
+        },'json')
+    }
+</script>
+
+
+
+</body>
+</html>

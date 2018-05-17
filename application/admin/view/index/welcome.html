@@ -1,0 +1,117 @@
+{include file="public/head" /}
+
+
+
+<fieldset class="layui-elem-field needs_handle" >
+    <legend>代办事项</legend>
+    <div class="layui-field-box">
+        <!--网站共有会员<span class="layui-badge layui-bg-gray">{$user_count}</span>位-->
+        <ul class="layui-row layui-col-space10 layui-this">
+            <li class="layui-col-xs4">
+                <a lay-href="" class="layadmin-backlog-body">
+                    <h3>入党申请</h3>
+                    <p><cite>5</cite></p>
+                </a>
+            </li>
+            <li class="layui-col-xs4">
+                <a lay-href="" class="layadmin-backlog-body">
+                    <h3>三会一课</h3>
+                    <p><cite>12</cite></p>
+                </a>
+            </li>
+            <li class="layui-col-xs4">
+                <a lay-href="" class="layadmin-backlog-body">
+                    <h3>待审商品</h3>
+                    <p><cite>99</cite></p>
+                </a>
+            </li>
+            <li class="layui-col-xs4">
+                <a lay-href="" class="layadmin-backlog-body">
+                    <h3>待发货</h3>
+                    <p><cite>20</cite></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</fieldset>
+<fieldset class="layui-elem-field needs_handle" >
+    <legend>网站会员</legend>
+    <div class="layui-field-box">
+        网站共有会员<span class="layui-badge layui-bg-gray">{$user_count}</span>位
+    </div>
+</fieldset>
+
+<fieldset class="layui-elem-field needs_handle" >
+    <legend>数据统计</legend>
+    <div class="layui-field-box">
+        <script src="__STATIC__/echarts.min.js"></script>
+        <div id="main" style="width: 50%;height:400px;"></div>
+    </div>
+</fieldset>
+
+<fieldset class="layui-elem-field needs_handle">
+    <legend>信息</legend>
+    <div class="layui-field-box">
+        <blockquote class="layui-elem-quote layui-quote-nm">欢迎使用米醋儿网后台通用系统！本系统提供免费升级方案</blockquote>
+
+        <blockquote class="layui-elem-quote layui-quote-nm">您现在使用的主机系统为：{php}echo php_uname();{/php}</blockquote>
+
+        <blockquote class="layui-elem-quote layui-quote-nm">php版本：{php}echo PHP_VERSION;{/php}</blockquote>
+
+        <blockquote class="layui-elem-quote layui-quote-nm">是否支持curl：{if condition="$curl"}支持{else/}不支持{/if}</blockquote>
+    </div>
+</fieldset>
+
+
+
+
+
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    option = {
+        title : {
+            text: '网站会员分布',
+            subtext: 'micuer.com',
+            x:'center'
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            left: 'left',
+            data: ['党员','积极分子','预备党员','其他']
+        },
+        series : [
+            {
+                name: '职工分布',
+                type: 'pie',
+                radius : '55%',
+                center: ['50%', '60%'],
+                data:[
+                    {value:335, name:'党员'},
+                    {value:310, name:'积极分子'},
+                    {value:234, name:'预备党员'},
+                    {value:135, name:'其他'}
+                ],
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+
+
+

@@ -1,0 +1,92 @@
+{include file="public/head"}
+
+<a class="layui-btn" href="javascript:;" onclick="add_fl()"><i class="layui-icon">&#xe654;</i> 新增友链</a>
+
+
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>名称</th>
+        <th>链接</th>
+        <th>排序</th>
+        <th>是否启用</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name="links" id="l"}
+    <tr>
+        <td>{$l.id}</td>
+        <td>{$l.name}</td>
+        <td>{$l.url} <a style="float: right;" target="_blank" href="{$l.url} " 	class="layui-btn layui-btn-sm">预览</a> </td>
+        <td>{$l.status}</td>
+        <td>{if condition="$l['status'] eq 1"}<i class="layui-icon">&#xe605;</i> {else/}<i class="layui-icon">&#x1006;</i> {/if}</td>
+        <td>
+            <div class="layui-btn-group">
+                <a href="javascript:;" onclick="open_edit('{:url('Friendlink/edit',['id'=>$l.id])}')" class="layui-btn layui-btn-primary layui-btn-small">
+                    <i class="layui-icon">&#xe642;</i>
+                </a>
+                <a href="javascript:;" onclick="delete_link({$l.id});" class="layui-btn layui-btn-primary layui-btn-small">
+                    <i class="layui-icon">&#xe640;</i>
+                </a>
+            </div>
+        </td>
+    </tr>
+
+    {/volist}
+
+    </tbody>
+</table>
+
+<script>
+    function delete_link(id) {
+        layer.confirm('您确定要删除么？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            var url="{:url('Friendlink/dalete_link')}";
+            $.post(url,{id:id},function (e) {
+                if(e == 1){
+                    layer.msg('删除成功');
+                    window.location.reload();
+                }else {
+                    layer.msg('删除失败');
+                }
+            })
+        }, function(){
+            layer.msg('已取消');
+        });
+
+    }
+    /**
+     * 新增友情链接
+     */
+    function add_fl() {
+        var url="{:url('add')}";
+        layer.open({
+            type: 2,
+            area: ['700px', '100%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    /**
+     * 打开修改页面
+     */
+    function open_edit(url) {
+
+        layer.open({
+            type: 2,
+            area: ['700px', '100%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+</script>

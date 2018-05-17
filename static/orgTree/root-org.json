@@ -1,0 +1,393 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "deptname": "总办公室",
+            "children": [
+                {
+                    "id": "1111",
+                    "deptname": "总办公室秘书",
+                    "children": []
+                },
+                {
+                    "id": "1112",
+                    "deptname": "总办公室管理委员会",
+                    "children": [
+                        {
+                            "id": "11121",
+                            "deptname": "设计发展委员会",
+                            "children": [
+                                {
+                                    "id": "111211",
+                                    "deptname": "视觉设计分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111212",
+                                    "deptname": "UI设计分会",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "11122",
+                            "deptname": "前端发展委员会",
+                            "children": [
+                                {
+                                    "id": "111221",
+                                    "deptname": "UI重构分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111222",
+                                    "deptname": "前端开发分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111223",
+                                    "deptname": "前端业务开发分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111224",
+                                    "deptname": "前端框架开发分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111225",
+                                    "deptname": "nodejs开发分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111226",
+                                    "deptname": "动画开发分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111227",
+                                    "deptname": "前端技术发展分会",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "11123",
+                            "deptname": "后端发展委员会",
+                            "children": [
+                                {
+                                    "id": "111231",
+                                    "deptname": "业务逻辑分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111232",
+                                    "deptname": "DBA分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111233",
+                                    "deptname": "JAVA分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111234",
+                                    "deptname": "PHP分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111235",
+                                    "deptname": "ASP.NET分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111236",
+                                    "deptname": "C#分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111237",
+                                    "deptname": "其他分会",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "11124",
+                            "deptname": "运营发展委员会",
+                            "children": [
+                                {
+                                    "id": "111241",
+                                    "deptname": "策划通道分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111242",
+                                    "deptname": "项目分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111243",
+                                    "deptname": "产品分会",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "11125",
+                            "deptname": "技术发展委员会",
+                            "children": [
+                                {
+                                    "id": "111251",
+                                    "deptname": "技术研发分会",
+                                    "children": []
+                                },
+                                {
+                                    "id": "111252",
+                                    "deptname": "安全技术分会",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "deptname": "HR事业群",
+            "children": []
+        },
+        {
+            "id": "3",
+            "deptname": "前端事业群",
+            "children": [
+                {
+                    "id": "3331",
+                    "deptname": "UI重构组",
+                    "children": []
+                },
+                {
+                    "id": "3332",
+                    "deptname": "前端开发组",
+                    "children": [
+                        {
+                            "id": "33321",
+                            "deptname": "UI重构一组",
+                            "children": []
+                        },
+                        {
+                            "id": "33322",
+                            "deptname": "UI重构二组",
+                            "children": []
+                        },
+                        {
+                            "id": "33323",
+                            "deptname": "UI重构三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3333",
+                    "deptname": "前端业务开发",
+                    "children": [
+                        {
+                            "id": "33331",
+                            "deptname": "前端一组",
+                            "children": []
+                        },
+                        {
+                            "id": "33332",
+                            "deptname": "前端二组",
+                            "children": []
+                        },
+                        {
+                            "id": "33333",
+                            "deptname": "前端三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3334",
+                    "deptname": "前端框架开发",
+                    "children": [
+                        {
+                            "id": "33341",
+                            "deptname": "前端一组",
+                            "children": []
+                        },
+                        {
+                            "id": "33342",
+                            "deptname": "前端二组",
+                            "children": []
+                        },
+                        {
+                            "id": "33343",
+                            "deptname": "前端三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3335",
+                    "deptname": "nodejs开发",
+                    "children": [
+                        {
+                            "id": "33351",
+                            "deptname": "node一组",
+                            "children": []
+                        },
+                        {
+                            "id": "33352",
+                            "deptname": "node二组",
+                            "children": []
+                        },
+                        {
+                            "id": "33353",
+                            "deptname": "node三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3336",
+                    "deptname": "动画开发",
+                    "children": [
+                        {
+                            "id": "33361",
+                            "deptname": "动画一组",
+                            "children": []
+                        },
+                        {
+                            "id": "33362",
+                            "deptname": "动画二组",
+                            "children": []
+                        },
+                        {
+                            "id": "33363",
+                            "deptname": "动画三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3337",
+                    "deptname": "前端技术发展",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "deptname": "设计事业群",
+            "children": [
+                {
+                    "id": "4441",
+                    "deptname": "视觉设计",
+                    "children": [
+                        {
+                            "id": "44411",
+                            "deptname": "视觉一组",
+                            "children": []
+                        },
+                        {
+                            "id": "44412",
+                            "deptname": "视觉二组",
+                            "children": []
+                        },
+                        {
+                            "id": "44413",
+                            "deptname": "视觉三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "4442",
+                    "deptname": "UI设计",
+                    "children": [
+                        {
+                            "id": "44421",
+                            "deptname": "UI一组",
+                            "children": []
+                        },
+                        {
+                            "id": "44422",
+                            "deptname": "UI二组",
+                            "children": []
+                        },
+                        {
+                            "id": "44423",
+                            "deptname": "UI三组",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "4442",
+                    "deptname": "平面设计",
+                    "children": [
+                        {
+                            "id": "44421",
+                            "deptname": "平面一组",
+                            "children": []
+                        },
+                        {
+                            "id": "44422",
+                            "deptname": "平面二组",
+                            "children": []
+                        },
+                        {
+                            "id": "44423",
+                            "deptname": "平面三组",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "deptname": "后端事业群",
+            "children": [
+                {
+                    "id": "5551",
+                    "deptname": "后端一组",
+                    "children": []
+                },
+                {
+                    "id": "5552",
+                    "deptname": "后端二组",
+                    "children": []
+                },
+                {
+                    "id": "5553",
+                    "deptname": "后端三组",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "deptname": "运营事业群",
+            "children": [
+                {
+                    "id": "6661",
+                    "deptname": "运营一组",
+                    "children": []
+                },
+                {
+                    "id": "6662",
+                    "deptname": "运营二组",
+                    "children": []
+                },
+                {
+                    "id": "6663",
+                    "deptname": "运营三组",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

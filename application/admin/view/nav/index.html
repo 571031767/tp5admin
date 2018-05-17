@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+
+<form class="layui-form" action="{:url('Nav/add')}">
+    <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+        <label class="layui-form-label">导航名</label>
+        <div class="layui-input-block">
+            <input type="text" name="name" required  lay-verify="required" placeholder="请输入导航名" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">导航链接</label>
+        <div class="layui-input-inline">
+            <input type="text" name="src" required lay-verify="required" placeholder="请输入连接" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">以http://开头</div>
+    </div>
+    <div class="layui-form-item" style="width: 500px;">
+        <label class="layui-form-label">导航位置</label>
+        <div class="layui-input-block">
+            <select name="istop">
+                <option value=""></option>
+                <option value="0">顶部</option>
+                <option value="1">中部</option>
+                <option value="2">底部</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否新窗口开启</label>
+        <div class="layui-input-block">
+            <input type="radio" name="blank" value="0" title="否">
+            <input type="radio" name="blank" value="1" title="是" checked>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否开启</label>
+        <div class="layui-input-block">
+            <input type="radio" name="status" value="0" title="否">
+            <input type="radio" name="status" value="1" title="是" checked>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form();
+
+    });
+</script>
+
+
+{include file="public/footer" /}
+</body>
+</html>

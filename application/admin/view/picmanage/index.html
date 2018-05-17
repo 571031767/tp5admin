@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<button class="layui-btn layui-btn-primary" style="margin-left: 1%" onclick="add_new_pic()"><i class="layui-icon">&#xe654;</i> 上传新图</button>
+<script src="__STATIC__/js/clipboard.min.js"></script>
+
+<style>
+    ul{width: 100%; height: auto; margin-top: 20px;}
+    ul .item{width: 21%;margin-left: 1%; overflow: hidden;
+        float: left;}
+    .item img{width: 100%; max-height: 260px;}
+    
+</style>
+<?php
+    $base_url = explode("/",$_SERVER['HTTP_REFERER']);
+?>
+
+<ul class="site-doc-icon wall">
+    {volist name="list" id="v"}
+    {volist name="v" id="pic"}
+    <li style="float:left;" class="item">
+        <a href="javascript:;" onclick="pre_view_img('//{$base_url[2]}/public/uploads/picmanages/{$pic}');">
+        <img src="//{$base_url[2]}/public/uploads/picmanages/{$pic}" alt="">
+        <br>
+        </a>
+        <table class="layui-table">
+            <tr>
+                <td>src:</td>
+                <td><input type="text" name="title" value="//{$base_url[2]}/public/uploads/picmanages/{$pic}" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="layui-btn layui-btn-danger" onclick="clipboard(this)" data-clipboard-text="//{$base_url[2]}/public/uploads/picmanages/{$pic}">复制外链</button>
+                    <button class="layui-btn layui-btn-danger" onclick="del_pic('/public/uploads/picmanages/{$pic}')">删除</button>
+                </td>
+            </tr>
+        </table>
+
+    </li>
+    {/volist}
+    {/volist}
+</ul>
+<script src="__STATIC__/js/jaliswall.js"></script>
+<script>
+    function add_new_pic() {
+        var url = "{:url('add_new_pic')}";
+        layer.open({
+            type: 2,
+            area: ['90%', '90%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    function del_pic(name) {
+        var url="{:url('del_pic')}";
+        $.post(url,{name:name},function(e){
+            if(e.status == 1){
+                success(e.msg);
+                reload();
+            }else {
+                error(e.msg);
+            }
+        },'json')
+    }
+    $(function(){
+        $('.wall').jaliswall({ item: '.item' });
+    });
+
+
+    function pre_view_img(url) {
+        layer.open({
+            area: ['90%', '90%'],
+            type: 1,
+            title: false,
+            closeBtn: 1,
+            shadeClose: true,
+            content: "<img src='"+url+"' />"
+        });
+    }
+    
+    function clipboard(obj) {
+        var clipboard = new ClipboardJS(obj);
+        clipboard.on('success', function(e) {
+            success("复制成功");
+        });
+        clipboard.on('error', function(e) {
+            error("失败");
+        });
+    }
+
+
+</script>
+
+
+
+</body>
+</html>

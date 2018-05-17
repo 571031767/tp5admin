@@ -1,0 +1,174 @@
+<!--layui导航-->
+<ul class="layui-nav" lay-filter="">
+    <li class="layui-nav-item">
+        <a href="">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="ad1" href="" title="qq571031767 微博：沙坪坝韩宇">@沙坪坝韩宇</a>
+            </div>
+
+            <script>
+                $('#ad1').mouseover(function(){
+                    layer.tips('qq571031767 微博：沙坪坝韩宇', '#ad1', {
+                        tips: [1, '#3595CC'],
+                        time: 1000
+                    });
+                });
+
+            </script>
+        </a>
+    </li>
+
+    {volist name="nav_list" id="navlist"}
+    <li class="layui-nav-item">
+        <a href="javascript:;">{$navlist.name}</a>
+
+        {notempty name="$navlist.child"}
+        <dl class="layui-nav-child"> <!-- 二级菜单 -->
+        {volist name="navlist.child" id="ch_nav"}
+            <dd><a href="{$ch_nav.url}">{$ch_nav.name}</a></dd>
+        {/volist}
+        </dl>
+        {/notempty}
+
+    </li>
+    {/volist}
+
+
+    <li class="layui-nav-item" style="float:right;">
+        <a href="javascript:;">{:session('username')}</a>
+        <dl class="layui-nav-child"> <!-- 二级菜单 -->
+            <dd><a href="#">修改密码</a></dd>
+            <dd><a href="{:Url('User/logout')}">退出登录</a></dd>
+        </dl>
+    </li>
+    <li  class="layui-nav-item" style="float:right;">
+        <a href="{:Url('cache/clear')}">清理缓存</a>
+    </li>
+</ul>
+<!--华丽的分割线-------------------------------------------------------------------------->
+
+
+
+<!--layui导航-->
+<!--
+<ul class="layui-nav" lay-filter="">
+    <li class="layui-nav-item">
+        <a href="">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="ad1" href="" title="qq571031767 微博：沙坪坝韩宇">@沙坪坝韩宇</a>
+            </div>
+
+            <script>
+                $('#ad1').mouseover(function(){
+                    layer.tips('qq571031767 微博：沙坪坝韩宇', '#ad1', {
+                        tips: [1, '#3595CC'],
+                        time: 1000
+                    });
+                });
+
+            </script>
+        </a>
+    </li>
+
+    <li class="layui-nav-item"><a href=""></a>
+        <a href="javascript:;">网站设置</a>
+        <dl class="layui-nav-child">
+            <dd><a href="{:url('index/index')}">后台首页</a></dd>
+            <dd><a id="site_config" href="{:url('webset/index')}">站点设置</a></dd>
+
+            <dd>
+                <hr>
+            </dd>
+            <dd><a href="{:url('conf/index')}">配置项列表</a></dd>
+            <dd><a href="{:url('conf/add')}">新增配置项</a></dd>
+            <dd>
+                <hr>
+            </dd>
+            <dd><a href="{:url('nav/index')}">前台导航添加</a></dd>
+            <dd><a href="{:url('nav/clist')}">前台导航列表</a></dd>
+
+            <dd>
+                <hr>
+            </dd>
+            <dd>
+                <a href="{:url('MyAuth/index')}">菜单管理</a>
+            </dd>
+        </dl>
+    </li>
+
+
+    <li class="layui-nav-item">
+        <a href="javascript:;">文章模块</a>
+        <dl class="layui-nav-child">
+            <dd><a href="{:url('ArticleCategory/index')}">文章分类</a></dd>
+            <dd><a href="{:url('ArticleCategory/add')}">新增分类</a></dd>
+            <dd>
+                <hr>
+            </dd>
+            <dd><a href="{:Url('article/index')}">文章列表</a></dd>
+            <dd><a href="{:Url('article/add')}">新增文章</a></dd>
+            <dd>
+                <hr>
+            </dd>
+            <dd><a href="#">文章属性</a></dd>
+            <dd><a href="#">新增文章属性</a></dd>
+        </dl>
+    </li>
+
+
+    <li class="layui-nav-item">
+        <a href="javascript:;">常用功能</a>
+        <dl class="layui-nav-child">
+            <dd><a href="{:url('index/index')}">后台首页</a></dd>
+            <dd role="separator" class="divider"></dd>
+            <dd><a href="{:Url('cache/clear')}">清理缓存</a></dd>
+            <dd role="separator" class="divider"></dd>
+            <dd><a href="{:Config('my_conf.web_url')}">网站前台</a></dd>
+            <dd role="separator" class="divider"></dd>
+            <dd><a href="http://www.micuer.com" target="_blank">技术支持</a></dd>
+        </dl>
+    </li>
+
+    <li class="layui-nav-item">
+        <a href="javascript:;">权限设置</a>
+        <dl class="layui-nav-child">
+            <dd><a href="{:url('MyAuth/index')}">权限管理</a></dd>
+            <dd><a href="{:Url('MyAuthUserGroup/index')}">用户组管理</a></dd>
+            <dd><a href="{:Url('MyAuthUser/index')}">用户管理</a></dd>
+
+        </dl>
+    </li>
+
+
+    <li class="layui-nav-item" style="float:right;">
+        <a href="javascript:;">{:session('username')}</a>
+        <dl class="layui-nav-child">
+            <dd><a href="#">修改密码</a></dd>
+            <dd><a href="{:Url('User/logout')}">退出登录</a></dd>
+        </dl>
+    </li>
+    <li  class="layui-nav-item" style="float:right;">
+        <a href="{:Url('cache/clear')}">清理缓存</a>
+    </li>
+</ul>
+
+-->
+<script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function(){
+        var element = layui.element();
+    });
+
+    layui.use('laypage', function(){
+        var laypage = layui.element();
+    });
+
+    $('#site_config').mouseover(function(){
+        layer.tips('此设置里面可以包括html源代码！将保存在数据库表里面！请勿在配置项中添加带有html元素的代码！', 'site_config', {
+            tips: [3, '#3595CC'],
+            time: 4000
+        });
+    })
+</script>
+
+

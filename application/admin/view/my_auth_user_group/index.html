@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body style="padding-top: 15px;">
+
+<a  class="layui-btn layui-btn-primary" onclick="open_add_html()" href="javascript:;"><i class="layui-icon">&#xe608;</i> 添加用户组</a>
+
+
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+    <tr>
+        <th>组名</th>
+        <th>option</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name="group" id="v"}
+    <tr>
+        <td>{$v.title}</td>
+        <td>
+            <a class="layui-btn layui-btn-primary" href="javascript:;" onclick="accredit('{:url('accredit',array('id'=>$v['id']))}')"><i class="layui-icon">&#xe620;</i>  授权</a>
+            <a class="layui-btn layui-btn-primary" href="javascript:;" onclick="del_group({$v.id});"><i class="layui-icon">&#xe640;</i>  删除</a>
+            <!--<a href="javascript:;" onclick="open_add_ahth_group({$v.id});">编辑</a>-->
+            <!--<a href="{:url('add_user_to_group_access')}?gid={$v.id}">添加用户</a>-->
+            <!--<a href="javascript:;" onclick="open_group_userlist({$v.id});">用户列表</a>-->
+        </td>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
+
+
+
+<script>
+    function open_group_userlist(id,gname){
+        var url = "{:url('open_group_userlist')}?id="+id;
+        layer.open({
+            type: 2,
+            area: ['700px', '450px'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    /**
+     * 打开授权页面
+     * @param url
+     */
+    function accredit(url){
+        layer.open({
+            title:"授权",
+            type: 2,
+            area: ['700px', '98%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    function del_group(id){
+        if(confirm('您确定要删除？')){
+            var url = "{:url('del_group')}";
+            $.post(url,{id:id},function(e){
+                if(e == 1){
+                    success("成功");
+                    reload();
+                }else {
+                    error("失败");
+                }
+            },'json');
+        }else {
+            error("已取消");
+        }
+    }
+
+    function open_add_html() {
+        var url="{:Url('MyAuthUserGroup/add')}";
+        layer.open({
+            title:"添加用户组",
+            type: 2,
+            area: ['700px', '450px'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+
+</script>
+
+{include file="public/footer" /}
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<blockquote class="layui-elem-quote">首页轮播</blockquote>
+<form action="{:url('add')}" method="post" class="layui-form" style="width: 50%">
+<div class="layui-tab">
+    <ul class="layui-tab-title">
+        <li class="layui-this">基础信息</li>
+        <li>其他信息</li>
+    </ul>
+    <div class="layui-tab-content">
+        <div class="layui-tab-item layui-show">
+            <div class="layui-form-item">
+                <label class="layui-form-label">名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入名称" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="picture" class="picture">
+                <label class="layui-form-label">图片</label>
+                <div class="layui-input-block">
+
+                    <div class="layui-upload-drag" id="test10">
+                        <i class="layui-icon"></i>
+                        <p>点击上传，或将文件拖拽到此处</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">链接地址</label>
+                <div class="layui-input-block">
+                    <input type="text" name="url" required  lay-verify="required" placeholder="请输入名称" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="layui-tab-item">
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">窗口模式</label>
+                <div class="layui-input-block">
+                    <select name="_target">
+                        <option value=""></option>
+                        <option value="0">新窗口</option>
+                        <option value="1">自身窗口</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">开启</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="status" value="0" title="否">
+                    <input type="radio" name="status" value="1" title="开" checked>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">排序</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="oid" placeholder="越小越靠前" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">越小越靠前</div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn"  lay-submit lay-filter="formDemo">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+<script>
+    //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function(){
+        var element = layui.element;
+
+        //…
+    });
+
+    layui.use('form', function(){
+        var form = layui.form;
+
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+//            layer.msg(JSON.stringify(data.field));
+            return true;
+        });
+    });
+
+    layui.use('upload', function() {
+        var upload = layui.upload;
+        //拖拽上传
+        upload.render({
+            elem: '#test10'
+            ,url: "{:url('Upload/upload')}"
+            ,done: function(res){
+//                console.log(res)
+                if(res.code == 1){
+                    $("#test10").html("<img src='/"+res.data+"'>");
+                    $(".picture").val(res.data);
+                    success(res.msg);
+                }else {
+                    error(res.msg);
+                }
+            }
+        });
+    });
+</script>
+
+{include file="public/footer" /}
+
+
+</body>
+</html>

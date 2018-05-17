@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<blockquote class="layui-elem-quote layui-quote-nm"> <button class="layui-btn layui-btn-sm" onclick="open_add_html()">新增</button> </blockquote>
+
+
+<table class="layui-table">
+    <tr>
+        <td>id</td>
+        <td>名称</td>
+        <td>链接地址</td>
+        <td>显示位置</td>
+        <td>是否新窗口打开</td>
+        <td>是否启用</td>
+        <td>操作</td>
+    </tr>
+
+    {volist name="list" id="v"}
+    <tr >
+        <td>{$v.id}</td>
+        <td>{$v.name}</td>
+        <td>{$v.src}</td>
+        <td>
+            {switch name="$v.istop" }
+            {case value="0" }顶部{/case}
+            {case value="1"}中部{/case}
+            {case value="2"}底部{/case}
+            {default /}暂未定义
+            {/switch}
+        </td>
+        <td>
+            {switch name="$v._blank" }
+            {case value="0" }否{/case}
+            {case value="1"}是{/case}
+            {default /}暂未定义
+            {/switch}
+        </td>
+        <td>
+            {switch name="$v.status" }
+            {case value="0" }否{/case}
+            {case value="1"}是{/case}
+            {default /}暂未定义
+            {/switch}
+
+        </td>
+        <td> <button class="layui-btn layui-btn-sm" onclick="change_info({$v.id});">修改</button>
+            <button class="layui-btn layui-btn-sm" onclick="del({$v.id});">删除</button>
+        </td>
+    </tr>
+    {/volist}
+
+
+</table>
+
+{$list->render()}
+
+<script>
+    function change_info(id){
+        var url ="{:url('nav/edit')}?id="+id;
+        //iframe层-父子操作
+        layer.open({
+            type: 2,
+            area: ['700px', '530px'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+    /**
+     * 打开新增页面
+     */
+    function open_add_html() {
+        var url ="{:url('index')}";
+        //iframe层-父子操作
+        layer.open({
+            type: 2,
+            area: ['700px', '100%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: url
+        });
+    }
+
+    function del(id) {
+        var url="{:url('del')}";
+        $.post(url,{id:id},function (e) {
+            if(e.status == 1){
+                success(e.msg);
+                reload();
+            }else {
+                error(e.msg);
+            }
+        })
+    }
+</script>
+{include file="public/footer" /}
+</body>
+</html>

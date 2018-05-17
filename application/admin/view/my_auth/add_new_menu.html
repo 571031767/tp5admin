@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<div style="height: 20px;"></div>
+<form action="{:url('MyAuth/add_new_menu')}" method="post" class="layui-form">
+    {empty name="pid"}
+    <div class="layui-form-item" style="width: 700px;">
+        <label class="layui-form-label">父级分类</label>
+        <div class="layui-input-block">
+            <select name="pid" lay-verify="required">
+                <option value="0">顶级</option>
+                {volist name="cate" id="v"}
+                <option value="{$v.id}">{$v.html}{$v.category_name}—{$v.level}级分类</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    {else /}
+    <input type="hidden" name="pid" value="{$pid}">
+    {/empty}
+
+
+    <div class="layui-form-item" style="width: 700px;">
+        <label class="layui-form-label">菜单名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="name" required  lay-verify="required" placeholder="请输入菜单名" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">模块名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="model_name" placeholder="请输入模块名" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux"><span style="color: red;">本系统限制首字母小写，后面的字母需要和控制器大小写一致！如控制器实名为MyAuth，则添加是需要写成myAuth</span></div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">方法名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="action_name" placeholder="请输入方法名" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">限英文并且没有特殊符号</div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否为侧边栏菜单</label>
+        <div class="layui-input-block">
+            <select name="is_menu" lay-verify="required">
+                <option value="0">否</option>
+                <option value="1">是</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">图标</label>
+        <div class="layui-input-inline">
+            <input type="text" name="icon" placeholder="请输入图标-具体参考layui 图标" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux"></div>
+    </div>
+
+    <div class="layui-form-item layui-form-text" style="width: 700px;">
+        <label class="layui-form-label">说明</label>
+        <div class="layui-input-block">
+            <textarea name="info" placeholder="" class="layui-textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+
+</form>
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form();
+    });
+</script>
+
+
+
+</body>
+</html>

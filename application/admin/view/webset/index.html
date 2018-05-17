@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {include file="public/head" /}
+</head>
+<body>
+<form class="layui-form" method="post" action="{:url('webset/add')}">
+    <div class="layui-tab">
+        <ul class="layui-tab-title">
+            <li class="layui-this">网站设置</li>
+            <li>邮件设置</li>
+            <li>短信接口设置</li>
+            <li>微信接口设置</li>
+            <li>客服设置</li>
+            <li>其他设置</li>
+        </ul>
+        <div class="layui-tab-content">
+
+            <div class="layui-tab-item layui-show">
+                网站设置
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">header代码[header_code]</label>
+                    <div class="layui-input-block">
+                <textarea name="header_code" placeholder="请输入内容"  class="layui-textarea">
+                   {notempty name="$res"} {$res.header_code}{/notempty}
+                </textarea>
+                    </div>
+                </div>
+
+
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">统计代码[tongji_code]</label>
+                    <div class="layui-input-block">
+                <textarea name="tongji_code" placeholder="请输入内容"  class="layui-textarea">
+                   {notempty name="$res"} {$res.tongji_code}{/notempty}
+                </textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="layui-tab-item">
+                邮件设置
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="email_config_mode" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">SMTP服务器[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">端口[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="layui-tab-item">
+                短信接口
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title"    placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title"  placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+            </div>
+            <div class="layui-tab-item">
+                微信接口
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title"  placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="layui-tab-item">
+                客服设置
+                <div class="layui-form-item">
+                    <label class="layui-form-label">是否开启客服</label>
+                    <div class="layui-input-block">
+                        <input type="radio" name="kefu_status" value="0" title="关闭">
+                        <input type="radio" name="kefu_status" value="1" title="开启" checked>
+                    </div>
+                </div>
+
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">客服1[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title"    placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">客服2[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title"  placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">客服3[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title"  placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-tab-item">
+                其他设置
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="width: 500px; margin-top: 20px;">
+                    <label class="layui-form-label">发送模式[]</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <span>本功能暂未提供后台功能！将在后续更新！</span>
+    </div>
+
+
+
+
+
+
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form();
+
+    });
+</script>
+
+
+{include file="public/footer" /}
+</body>
+</html>
