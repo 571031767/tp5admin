@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"E:\phpStudy\WWW\tp5\public/../application/admin\view\database\sql.html";i:1526521956;s:69:"E:\phpStudy\WWW\tp5\public/../application/admin\view\public\head.html";i:1526521956;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"E:\phpStudy\WWW\tp5\public/../application/admin\view\conf\add.html";i:1526521956;s:59:"E:\phpStudy\WWW\tp5\application\admin\view\public\head.html";i:1526521956;s:61:"E:\phpStudy\WWW\tp5\application\admin\view\public\footer.html";i:1526521956;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +6,11 @@
     <title></title>
     <title>后台通用版软件by 沙坪坝韩宇 QQ571031767</title>
 <!--本文件只包含一些相应的js  css 等文件-->
-<script src="__STATIC__/js/jquery.js"></script>
+<script src="/static/js/jquery.js"></script>
 <!--后台改版为layui-->
-<link rel="stylesheet" href="__STATIC__/layui/css/layui.css">
-<script src="__STATIC__/layui/layui.js"></script>
-<script src="__STATIC__/js/functions.js"></script>
+<link rel="stylesheet" href="/static/layui/css/layui.css">
+<script src="/static/layui/layui.js"></script>
+<script src="/static/js/functions.js"></script>
 
 
 <!--amazeui cdn-->
@@ -108,47 +108,63 @@
 </style>
 </head>
 <body>
-<blockquote class="layui-elem-quote">
-    执行原生sql语句
-</blockquote>
-
-<div>
-    <form class="layui-form" action="<?php echo url('Database/sql'); ?>" method="post">
-    <div class="layui-form-item layui-form-text">
-        <label class="layui-form-label">文本域</label>
-        <div class="layui-input-block">
-            <textarea style="height: 600px;" name="sql" placeholder="请输入sql语句(此高级功能只针对框架开发人员使用)" class="layui-textarea"></textarea>
+<blockquote class="layui-elem-quote">新增配置项</blockquote>
+<form action="<?php echo url('conf/add'); ?>" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">中文名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="ch_name" required lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
         </div>
+        <div class="layui-form-mid layui-word-aux">配置项中文名</div>
     </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">英文名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="en_name" required lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">配置项英文名</div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">配置项值</label>
+        <div class="layui-input-inline">
+            <input type="text" name="conf_value" required lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
+        </div>
+        <div class="layui-form-mid layui-word-aux">配置项值</div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+    <label class="layui-form-label">配置项相关说明</label>
+    <div class="layui-input-block">
+        <textarea name="info" placeholder="请输入内容" class="layui-textarea"></textarea>
+    </div>
+    </div>
+
     <div class="layui-form-item">
         <div class="layui-input-block">
             <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
             <button type="reset" class="layui-btn layui-btn-primary">重置</button>
         </div>
     </div>
-    </form>
-</div>
+</form>
 
 
 
 
 
-<script>
-    //Demo
-    layui.use('form', function(){
-        var form = layui.form;
-        //监听提交
-        form.on('submit(formDemo)', function(data){
-            //layer.msg(JSON.stringify(data.field));
-            if(data.sql == ""){
-                return false;
-            }else {
-                return true;
-            }
-        });
-    });
-</script>
 
 
+
+
+
+<fieldset class="layui-elem-field" style="float:left;">
+    <div class="layui-field-box">
+        此软件由 沙坪坝韩宇个人开发 以及免费分享！使用时请保留底部相关版权说明！否则必追究其刑事责任！
+        <hr>
+        感谢layui、jquery、php、thinkphp等
+    </div>
+
+</fieldset>
 </body>
 </html>

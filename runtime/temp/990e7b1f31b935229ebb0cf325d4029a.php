@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"E:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html";i:1526536485;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"E:\phpStudy\WWW\tp5\public/../application/index\view\phpmailer\index.html";i:1526536741;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,17 +19,17 @@
     <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.widgets.helper.min.js"></script>
     <!--amazeui cdn-->
 
-    <script  src="__JS__/jquery.js"> </script>
+    <script  src="/static/js/jquery.js"> </script>
 </head>
 <body>
 
-<a class="am-btn am-btn-default am-round" href="<?php echo Url('admin/index/index'); ?>" role="button">后台演示</a>
-
-
-<a class="am-btn am-btn-default am-round" href="<?php echo Url('index/Wechat/login'); ?>" role="button">微信登录演示</a>
-
-
-<a class="am-btn am-btn-default am-round" href="<?php echo Url('index/Phpmailer/index'); ?>" role="button">邮件发送演示</a>
-
+<h1>请输入一个邮件来接受本封测试邮件</h1>
+<form action="<?php echo url('index/phpmailer/index'); ?>" method="post">
+<div class="am-input-group">
+    <span class="am-input-group-label"><i class="am-icon-user am-icon-fw"></i></span>
+    <input type="text" class="am-form-field" placeholder="邮件" name="mail">
+</div>
+    <button type="submit" class="am-btn am-btn-primary">测试发送</button>
+</form>
 </body>
 </html>

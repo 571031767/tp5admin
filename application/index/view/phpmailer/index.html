@@ -1,4 +1,3 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"E:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html";i:1526536485;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,13 +22,13 @@
 </head>
 <body>
 
-<a class="am-btn am-btn-default am-round" href="<?php echo Url('admin/index/index'); ?>" role="button">后台演示</a>
-
-
-<a class="am-btn am-btn-default am-round" href="<?php echo Url('index/Wechat/login'); ?>" role="button">微信登录演示</a>
-
-
-<a class="am-btn am-btn-default am-round" href="<?php echo Url('index/Phpmailer/index'); ?>" role="button">邮件发送演示</a>
-
+<h1>请输入一个邮件来接受本封测试邮件</h1>
+<form action="{:url('index/phpmailer/index')}" method="post">
+<div class="am-input-group">
+    <span class="am-input-group-label"><i class="am-icon-user am-icon-fw"></i></span>
+    <input type="text" class="am-form-field" placeholder="邮件" name="mail">
+</div>
+    <button type="submit" class="am-btn am-btn-primary">测试发送</button>
+</form>
 </body>
 </html>

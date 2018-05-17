@@ -1,10 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"E:\phpStudy\WWW\tp5\public/../application/admin\view\database\sql.html";i:1526521956;s:69:"E:\phpStudy\WWW\tp5\public/../application/admin\view\public\head.html";i:1526521956;}*/ ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <title>后台通用版软件by 沙坪坝韩宇 QQ571031767</title>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"E:\phpStudy\WWW\tp5\public/../application/admin\view\user\upload_headimg.html";i:1526521956;s:69:"E:\phpStudy\WWW\tp5\public/../application/admin\view\public\head.html";i:1526521956;}*/ ?>
+<title>后台通用版软件by 沙坪坝韩宇 QQ571031767</title>
 <!--本文件只包含一些相应的js  css 等文件-->
 <script src="__STATIC__/js/jquery.js"></script>
 <!--后台改版为layui-->
@@ -106,49 +101,59 @@
         color: #009688;
     }
 </style>
-</head>
-<body>
-<blockquote class="layui-elem-quote">
-    执行原生sql语句
-</blockquote>
+<form class="layui-form" action="<?php echo url('User/upload_headimg'); ?>" method="post">
 
-<div>
-    <form class="layui-form" action="<?php echo url('Database/sql'); ?>" method="post">
-    <div class="layui-form-item layui-form-text">
-        <label class="layui-form-label">文本域</label>
-        <div class="layui-input-block">
-            <textarea style="height: 600px;" name="sql" placeholder="请输入sql语句(此高级功能只针对框架开发人员使用)" class="layui-textarea"></textarea>
-        </div>
-    </div>
     <div class="layui-form-item">
-        <div class="layui-input-block">
-            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
-            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        <div class="layui-input-block" >
+            <div class="layui-upload-drag" id="test10" style="margin: 0 auto; height: 175px;">
+                <i class="layui-icon"></i>
+                <p>点击上传，或将文件拖拽到此处</p>
+            </div>
         </div>
     </div>
-    </form>
+    <input type="hidden" name="headimgurl" id="headimgurl" value="">
+<div class="layui-form-item">
+    <div class="layui-input-block">
+        <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+    </div>
 </div>
-
-
-
-
-
+</form>
 <script>
     //Demo
     layui.use('form', function(){
         var form = layui.form;
+
         //监听提交
         form.on('submit(formDemo)', function(data){
             //layer.msg(JSON.stringify(data.field));
-            if(data.sql == ""){
-                return false;
-            }else {
-                return true;
-            }
+            return true;
         });
     });
+
 </script>
 
+<script>
+    layui.use('upload', function(){
+        var $ = layui.jquery
+            ,upload = layui.upload;
+        var url= "<?php echo url('Upload/upload'); ?>";
+        //拖拽上传
+        upload.render({
+            elem: '#test10'
+            ,size: 500 //限制文件大小，单位 KB
+            ,url: url
+            ,done: function(res){
+                if(res.code == 1){
+                    $('#test10').html("<img src='/"+res.data+"' style='max-width: 100%'>");
+                    $("#headimgurl").val(res.data);
+                    success("上传成功");
+                }else {
+                    error("上传失败,请重试");
+                }
+            }
+        });
 
-</body>
-</html>
+
+    });
+</script>

@@ -19,7 +19,7 @@
     <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.widgets.helper.min.js"></script>
     <!--amazeui cdn-->
 
-    <script  src="__JS__/jquery.js"> </script>
+    <script  src="/static/js/jquery.js"> </script>
 </head>
 <body>
 
