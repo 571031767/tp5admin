@@ -1,0 +1,373 @@
+---------------------------------------------------------------
+[ 2018-05-21T11:29:09+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [运行时间：0.559022s][吞吐率：1.79req/s] [内存消耗：1,926.53kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T11:29:10+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] tp5.com/favicon.ico [运行时间：0.091480s][吞吐率：10.93req/s] [内存消耗：1,481.52kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T11:29:10+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] tp5.com/favicon.ico [运行时间：0.095466s][吞吐率：10.47req/s] [内存消耗：1,481.20kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T11:29:11+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.063326s][吞吐率：15.79req/s] [内存消耗：1,488.30kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T11:29:58+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.135527s][吞吐率：7.38req/s] [内存消耗：1,725.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T11:31:24+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.131399s][吞吐率：7.61req/s] [内存消耗：1,941.19kb] [文件加载：62]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: phpWord[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:28]
+---------------------------------------------------------------
+[ 2018-05-21T11:31:45+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.426770s][吞吐率：2.34req/s] [内存消耗：3,617.30kb] [文件加载：136]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T11:44:39+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.187157s][吞吐率：5.34req/s] [内存消耗：2,435.82kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\COM' not found[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:64]
+---------------------------------------------------------------
+[ 2018-05-21T11:48:55+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.216168s][吞吐率：4.63req/s] [内存消耗：2,435.74kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\COM' not found[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:64]
+---------------------------------------------------------------
+[ 2018-05-21T11:48:58+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.161962s][吞吐率：6.17req/s] [内存消耗：2,435.77kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\COM' not found[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:64]
+---------------------------------------------------------------
+[ 2018-05-21T11:48:59+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.174937s][吞吐率：5.72req/s] [内存消耗：2,435.77kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\COM' not found[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:64]
+---------------------------------------------------------------
+[ 2018-05-21T11:49:00+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.145467s][吞吐率：6.87req/s] [内存消耗：2,435.77kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\COM' not found[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:64]
+---------------------------------------------------------------
+[ 2018-05-21T11:49:01+08:00 ] 127.0.0.1 GET /index/phpword/index.html
+[ info ] tp5.com/index/phpword/index.html [运行时间：0.166039s][吞吐率：6.02req/s] [内存消耗：2,435.77kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'phpword',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/phpword/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Phpword->index[ E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\COM' not found[E:\phpStudy\WWW\tp5\application\index\controller\Phpword.php:64]

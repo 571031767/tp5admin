@@ -52,6 +52,11 @@ class User extends Controller
     {
         $user = Db::name('user')->where(['username'=>Session::get('username')])->find();
         $post = Request::instance()->post();
+        if($user["username"] == "test"){
+            echo "<script>alert('测试用户不支持次改密码')</script>";
+            die;
+        }
+
         if(!$post){
             $this->assign('user',$user);
             return $this->fetch();
@@ -108,7 +113,7 @@ class User extends Controller
             $uid = Session::get('uid');
             $res = Db::name('user')->update(['id'=>$uid,'headimgurl'=>$d['headimgurl']]);
             if($res){
-                Session::set("headimgurl",$d[headimgurl]);
+//                Session::set("headimgurl",$d[headimgurl]);
                 $this->success("修改成功","","",0);
             }else{
                 $this->error("修改失败");

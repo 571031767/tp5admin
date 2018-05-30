@@ -1,0 +1,3201 @@
+---------------------------------------------------------------
+[ 2018-05-22T14:51:41+08:00 ] 127.0.0.1 GET /
+[ info ] tp5.com/ [运行时间：0.616591s][吞吐率：1.62req/s] [内存消耗：1,786.40kb] [文件加载：48]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-22T14:51:41+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] tp5.com/favicon.ico [运行时间：0.168337s][吞吐率：5.94req/s] [内存消耗：1,481.47kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-22T14:51:41+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] tp5.com/favicon.ico [运行时间：0.161533s][吞吐率：6.19req/s] [内存消耗：1,481.22kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-22T14:51:42+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] tp5.com/admin/index/index.html [运行时间：0.315762s][吞吐率：3.17req/s] [内存消耗：1,818.21kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/tpl\message.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-22T14:51:46+08:00 ] 127.0.0.1 GET /admin/user/index.html
+[ info ] tp5.com/admin/user/index.html [运行时间：0.098324s][吞吐率：10.17req/s] [内存消耗：1,812.43kb] [文件加载：48]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\phpStudy\WWW\tp5\application\admin\controller\User.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\user\index.html [ array (
+  0 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-22T14:51:51+08:00 ] 127.0.0.1 POST /admin/user/login.html
+[ info ] tp5.com/admin/user/login.html [运行时间：0.323238s][吞吐率：3.09req/s] [内存消耗：2,612.65kb] [文件加载：56]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/user/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '29',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user/login_html' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ E:\phpStudy\WWW\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/tpl\message.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005936s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.077467s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001785s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:51:55+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] tp5.com/admin/index/index.html [运行时间：0.279608s][吞吐率：3.58req/s] [内存消耗：2,660.45kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/user/login.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav_list',
+  1 => 'ip',
+  2 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001920s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.074637s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001971s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:51:55+08:00 ] 127.0.0.1 GET /admin/index/welcome.html
+[ info ] tp5.com/admin/index/welcome.html [运行时间：0.399544s][吞吐率：2.50req/s] [内存消耗：2,804.73kb] [文件加载：60]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/welcome_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\phpStudy\WWW\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'nav_list',
+  1 => 'user_count',
+  2 => 'curl',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001789s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.030413s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.037804s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `ta_user` LIMIT 1 [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:51:55+08:00 ] 127.0.0.1 GET /admin/index/frame/static/js/vip_nav.js
+[ info ] tp5.com/admin/index/frame/static/js/vip_nav.js [运行时间：0.299450s][吞吐率：3.34req/s] [内存消耗：2,694.71kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/frame/static/js/vip_nav_js' => '',
+  'static' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001739s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.033504s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001274s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:51:56+08:00 ] 127.0.0.1 GET /admin/index/Image/loading.gif
+[ info ] tp5.com/admin/index/Image/loading.gif [运行时间：0.225608s][吞吐率：4.43req/s] [内存消耗：2,694.33kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/welcome.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006368s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.076966s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.002375s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:51:58+08:00 ] 127.0.0.1 GET /admin/cache/clear.html
+[ info ] tp5.com/admin/cache/clear.html [运行时间：0.141114s][吞吐率：7.09req/s] [内存消耗：2,659.77kb] [文件加载：58]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cache',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/cache/clear_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cache->clear[ E:\phpStudy\WWW\tp5\application\admin\controller\Cache.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/tpl\message.html [ array (
+  0 => 'nav_list',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001991s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027809s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001157s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:00+08:00 ] 127.0.0.1 GET /admin/picmanage/index.html
+[ info ] tp5.com/admin/picmanage/index.html [运行时间：0.226216s][吞吐率：4.42req/s] [内存消耗：2,810.98kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Picmanage->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Picmanage.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\picmanage\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001955s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.046214s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001279s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:00+08:00 ] 127.0.0.1 GET /admin/picmanage/Image/loading.gif
+[ info ] tp5.com/admin/picmanage/Image/loading.gif [运行时间：0.221932s][吞吐率：4.51req/s] [内存消耗：2,693.84kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/picmanage/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002137s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.109585s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001331s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:02+08:00 ] 127.0.0.1 GET /admin/article_category/index.html
+[ info ] tp5.com/admin/article_category/index.html [运行时间：0.272804s][吞吐率：3.67req/s] [内存消耗：2,813.39kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article_category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article_category/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\ArticleCategory->index[ E:\phpStudy\WWW\tp5\application\admin\controller\ArticleCategory.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\article_category\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+  2 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003280s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.026037s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_article_category` [ RunTime:0.066965s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_article_category` [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:03+08:00 ] 127.0.0.1 GET /admin/article_category/Image/loading.gif
+[ info ] tp5.com/admin/article_category/Image/loading.gif [运行时间：0.176182s][吞吐率：5.68req/s] [内存消耗：2,702.71kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article_category',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/article_category/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article_category/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003686s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.032221s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001469s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:04+08:00 ] 127.0.0.1 GET /admin/article/index.html
+[ info ] tp5.com/admin/article/index.html [运行时间：0.314434s][吞吐率：3.18req/s] [内存消耗：2,932.52kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001731s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.025815s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_article` [ RunTime:0.060256s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_article` LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_article` LIMIT 0,15 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:05+08:00 ] 127.0.0.1 GET /admin/article/Image/loading.gif
+[ info ] tp5.com/admin/article/Image/loading.gif [运行时间：0.185644s][吞吐率：5.39req/s] [内存消耗：2,701.28kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/article/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002144s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.031866s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001021s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:06+08:00 ] 127.0.0.1 GET /admin/article/add.html
+[ info ] tp5.com/admin/article/add.html [运行时间：0.214387s][吞吐率：4.66req/s] [内存消耗：2,815.16kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/add_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->add[ E:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\article\add.html [ array (
+  0 => 'nav_list',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021814s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.046054s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_article_category` [ RunTime:0.043437s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_article_category` [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:06+08:00 ] 127.0.0.1 GET /admin/article/Image/loading.gif
+[ info ] tp5.com/admin/article/Image/loading.gif [运行时间：0.155407s][吞吐率：6.43req/s] [内存消耗：2,701.34kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/article/add.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002245s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.024160s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001581s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:09+08:00 ] 127.0.0.1 GET /admin/my_auth_user_group/index.html
+[ info ] tp5.com/admin/my_auth_user_group/index.html [运行时间：0.197676s][吞吐率：5.06req/s] [内存消耗：2,830.76kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth_user_group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth_user_group/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\MyAuthUserGroup->index[ E:\phpStudy\WWW\tp5\application\admin\controller\MyAuthUserGroup.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\my_auth_user_group\index.html [ array (
+  0 => 'nav_list',
+  1 => 'group',
+  2 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002265s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.029033s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_auth_group` [ RunTime:0.055838s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_auth_group` [ RunTime:0.002043s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:09+08:00 ] 127.0.0.1 GET /admin/my_auth_user_group/Image/loading.gif
+[ info ] tp5.com/admin/my_auth_user_group/Image/loading.gif [运行时间：0.121068s][吞吐率：8.26req/s] [内存消耗：2,719.74kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth_user_group',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/my_auth_user_group/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth_user_group/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002714s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.033407s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001126s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:11+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.298123s][吞吐率：3.35req/s] [内存消耗：2,934.55kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001853s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027797s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.031370s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.059657s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.001701s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:11+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.167874s][吞吐率：5.96req/s] [内存消耗：2,698.73kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001716s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028974s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001500s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:13+08:00 ] 127.0.0.1 GET /admin/conf/index.html
+[ info ] tp5.com/admin/conf/index.html [运行时间：0.294621s][吞吐率：3.39req/s] [内存消耗：2,940.05kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'conf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/conf/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Conf->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Conf.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\conf\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001856s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.031171s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_conf` [ RunTime:0.054024s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_conf` LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_conf` LIMIT 0,15 [ RunTime:0.000905s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:14+08:00 ] 127.0.0.1 GET /admin/conf/Image/loading.gif
+[ info ] tp5.com/admin/conf/Image/loading.gif [运行时间：0.153648s][吞吐率：6.51req/s] [内存消耗：2,705.95kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'conf',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/conf/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/conf/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001743s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.032630s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001088s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:15+08:00 ] 127.0.0.1 GET /admin/nav/clist.html
+[ info ] tp5.com/admin/nav/clist.html [运行时间：0.210028s][吞吐率：4.76req/s] [内存消耗：2,922.64kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'nav',
+    2 => 'clist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/nav/clist_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Nav->clist[ E:\phpStudy\WWW\tp5\application\admin\controller\Nav.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\nav\clist.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002988s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027196s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_nav` [ RunTime:0.041368s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_nav` LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_nav` LIMIT 0,15 [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:15+08:00 ] 127.0.0.1 GET /admin/nav/Image/loading.gif
+[ info ] tp5.com/admin/nav/Image/loading.gif [运行时间：0.122811s][吞吐率：8.14req/s] [内存消耗：2,699.37kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'nav',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/nav/clist.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/nav/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001870s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.029507s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001751s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:17+08:00 ] 127.0.0.1 GET /admin/my_auth/index.html
+[ info ] tp5.com/admin/my_auth/index.html [运行时间：0.261168s][吞吐率：3.83req/s] [内存消耗：2,982.46kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\MyAuth->index[ E:\phpStudy\WWW\tp5\application\admin\controller\MyAuth.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\my_auth\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003296s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.063793s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.005236s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_menu` ORDER BY `o`,`id` [ RunTime:0.001633s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:17+08:00 ] 127.0.0.1 GET /admin/my_auth/Image/loading.gif
+[ info ] tp5.com/admin/my_auth/Image/loading.gif [运行时间：0.200217s][吞吐率：4.99req/s] [内存消耗：2,707.60kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/my_auth/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001926s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.067800s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001795s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:19+08:00 ] 127.0.0.1 GET /admin/banner/index.html
+[ info ] tp5.com/admin/banner/index.html [运行时间：0.488817s][吞吐率：2.05req/s] [内存消耗：2,929.91kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\banner\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001856s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.030871s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_banner` [ RunTime:0.198009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_banner` LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_banner` ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000946s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:19+08:00 ] 127.0.0.1 GET /admin/banner/Image/loading.gif
+[ info ] tp5.com/admin/banner/Image/loading.gif [运行时间：0.176549s][吞吐率：5.66req/s] [内存消耗：2,699.70kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/banner/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004913s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.032851s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001340s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:21+08:00 ] 127.0.0.1 GET /admin/friendlink/index.html
+[ info ] tp5.com/admin/friendlink/index.html [运行时间：0.219291s][吞吐率：4.56req/s] [内存消耗：2,923.57kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'friendlink',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/friendlink/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Friendlink->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Friendlink.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\friendlink\index.html [ array (
+  0 => 'nav_list',
+  1 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004612s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_link` [ RunTime:0.058156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_link` LIMIT 1 [ RunTime:0.004124s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_link` LIMIT 0,15 [ RunTime:0.001759s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:21+08:00 ] 127.0.0.1 GET /admin/friendlink/Image/loading.gif
+[ info ] tp5.com/admin/friendlink/Image/loading.gif [运行时间：0.169528s][吞吐率：5.90req/s] [内存消耗：2,696.80kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'friendlink',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/friendlink/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/friendlink/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005177s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.073664s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.002171s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:26+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.195882s][吞吐率：5.11req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001821s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027347s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.036825s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.001229s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:27+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.164908s][吞吐率：6.06req/s] [内存消耗：2,698.73kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005044s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.030177s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001213s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:28+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.197472s][吞吐率：5.06req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002353s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028817s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.003134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.035272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.001234s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:29+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.143521s][吞吐率：6.97req/s] [内存消耗：2,698.73kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001718s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028027s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.000998s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:30+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.151278s][吞吐率：6.61req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001825s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028275s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.031894s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:31+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.112539s][吞吐率：8.89req/s] [内存消耗：2,698.75kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002966s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.026808s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001614s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:32+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.152918s][吞吐率：6.54req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002051s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.026619s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.036092s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:33+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.114363s][吞吐率：8.74req/s] [内存消耗：2,698.75kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001776s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028327s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:34+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.188394s][吞吐率：5.31req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002707s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028115s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.028901s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.001213s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:34+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.163738s][吞吐率：6.11req/s] [内存消耗：2,698.73kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001720s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.035650s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001068s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:35+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.158720s][吞吐率：6.30req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002611s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028009s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.036621s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.002467s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:36+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.113936s][吞吐率：8.78req/s] [内存消耗：2,698.75kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001845s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.029380s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001152s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:37+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.213542s][吞吐率：4.68req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002902s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027922s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.045320s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:37+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.150941s][吞吐率：6.63req/s] [内存消耗：2,698.73kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001851s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027304s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001287s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:38+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.170281s][吞吐率：5.87req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001880s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027845s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.039190s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:38+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.115324s][吞吐率：8.67req/s] [内存消耗：2,698.75kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001863s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028715s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001202s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:39+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.267303s][吞吐率：3.74req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001725s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.096978s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.031566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:40+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.182406s][吞吐率：5.48req/s] [内存消耗：2,698.73kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002139s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027599s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001092s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:41+08:00 ] 127.0.0.1 GET /admin/admin/index.html
+[ info ] tp5.com/admin/admin/index.html [运行时间：0.145441s][吞吐率：6.88req/s] [内存消耗：2,786.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\admin\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001854s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028388s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_user` [ RunTime:0.030472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `u`.*,ag.id as agid,`ag`.`title` FROM `ta_user` `u` LEFT JOIN `ta_auth_group_access` `aga` ON `u`.`id`=`aga`.`uid` LEFT JOIN `ta_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` LIMIT 0,10 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:41+08:00 ] 127.0.0.1 GET /admin/admin/Image/loading.gif
+[ info ] tp5.com/admin/admin/Image/loading.gif [运行时间：0.107727s][吞吐率：9.28req/s] [内存消耗：2,698.75kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/admin/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027421s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001421s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:50+08:00 ] 127.0.0.1 GET /admin/article/index.html
+[ info ] tp5.com/admin/article/index.html [运行时间：0.154682s][吞吐率：6.46req/s] [内存消耗：2,785.70kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002630s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028219s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.002992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_article` [ RunTime:0.029449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_article` LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_article` LIMIT 0,15 [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:51+08:00 ] 127.0.0.1 GET /admin/article/Image/loading.gif
+[ info ] tp5.com/admin/article/Image/loading.gif [运行时间：0.111664s][吞吐率：8.96req/s] [内存消耗：2,701.28kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/article/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002511s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028497s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001003s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:56+08:00 ] 127.0.0.1 GET /admin/picmanage/index.html
+[ info ] tp5.com/admin/picmanage/index.html [运行时间：0.198687s][吞吐率：5.03req/s] [内存消耗：2,660.64kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Picmanage->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Picmanage.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\picmanage\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002025s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.059645s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.003867s ]
+---------------------------------------------------------------
+[ 2018-05-22T14:52:56+08:00 ] 127.0.0.1 GET /admin/picmanage/Image/loading.gif
+[ info ] tp5.com/admin/picmanage/Image/loading.gif [运行时间：0.171993s][吞吐率：5.81req/s] [内存消耗：2,693.86kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/picmanage/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003271s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.030005s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001195s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:01:06+08:00 ] 127.0.0.1 GET /admin/picmanage/index.html
+[ info ] tp5.com/admin/picmanage/index.html [运行时间：0.221277s][吞吐率：4.52req/s] [内存消耗：2,811.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Picmanage->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Picmanage.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\picmanage\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006312s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.033339s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001648s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:01:06+08:00 ] 127.0.0.1 GET /admin/picmanage/Image/loading.gif
+[ info ] tp5.com/admin/picmanage/Image/loading.gif [运行时间：0.297070s][吞吐率：3.37req/s] [内存消耗：2,693.86kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/picmanage/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001903s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.148306s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001021s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:01:08+08:00 ] 127.0.0.1 GET /admin/picmanage/index.html
+[ info ] tp5.com/admin/picmanage/index.html [运行时间：0.142372s][吞吐率：7.02req/s] [内存消耗：2,660.65kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Picmanage->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Picmanage.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\picmanage\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003618s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.036017s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:01:09+08:00 ] 127.0.0.1 GET /admin/picmanage/Image/loading.gif
+[ info ] tp5.com/admin/picmanage/Image/loading.gif [运行时间：0.114353s][吞吐率：8.74req/s] [内存消耗：2,693.84kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/picmanage/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001891s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.031757s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001080s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:11+08:00 ] 127.0.0.1 GET /admin/picmanage/index.html
+[ info ] tp5.com/admin/picmanage/index.html [运行时间：0.168917s][吞吐率：5.92req/s] [内存消耗：2,660.65kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Picmanage->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Picmanage.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\picmanage\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003671s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.035841s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001625s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:11+08:00 ] 127.0.0.1 GET /admin/picmanage/Image/loading.gif
+[ info ] tp5.com/admin/picmanage/Image/loading.gif [运行时间：0.137142s][吞吐率：7.29req/s] [内存消耗：2,693.84kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/picmanage/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003098s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.046984s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001892s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:19+08:00 ] 127.0.0.1 GET /admin/picmanage/index.html
+[ info ] tp5.com/admin/picmanage/index.html [运行时间：0.195883s][吞吐率：5.11req/s] [内存消耗：2,660.65kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Picmanage->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Picmanage.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\picmanage\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.032116s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001493s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:19+08:00 ] 127.0.0.1 GET /admin/picmanage/Image/loading.gif
+[ info ] tp5.com/admin/picmanage/Image/loading.gif [运行时间：0.221032s][吞吐率：4.52req/s] [内存消耗：2,693.86kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picmanage',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/picmanage/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/picmanage/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001859s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.032732s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001072s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:21+08:00 ] 127.0.0.1 GET /admin/my_auth_user_group/index.html
+[ info ] tp5.com/admin/my_auth_user_group/index.html [运行时间：0.284136s][吞吐率：3.52req/s] [内存消耗：2,830.89kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth_user_group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth_user_group/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\MyAuthUserGroup->index[ E:\phpStudy\WWW\tp5\application\admin\controller\MyAuthUserGroup.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\my_auth_user_group\index.html [ array (
+  0 => 'nav_list',
+  1 => 'group',
+  2 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007796s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027730s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_auth_group` [ RunTime:0.046488s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_auth_group` [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:22+08:00 ] 127.0.0.1 GET /admin/my_auth_user_group/Image/loading.gif
+[ info ] tp5.com/admin/my_auth_user_group/Image/loading.gif [运行时间：0.203328s][吞吐率：4.92req/s] [内存消耗：2,719.74kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth_user_group',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/my_auth_user_group/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth_user_group/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001969s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.028844s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001015s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:24+08:00 ] 127.0.0.1 GET /admin/conf/index.html
+[ info ] tp5.com/admin/conf/index.html [运行时间：0.191338s][吞吐率：5.23req/s] [内存消耗：2,940.07kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'conf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/conf/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Conf->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Conf.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\conf\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001863s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.035475s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_conf` [ RunTime:0.031326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_conf` LIMIT 1 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_conf` LIMIT 0,15 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:24+08:00 ] 127.0.0.1 GET /admin/conf/Image/loading.gif
+[ info ] tp5.com/admin/conf/Image/loading.gif [运行时间：0.128241s][吞吐率：7.80req/s] [内存消耗：2,705.96kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'conf',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/conf/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/conf/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001937s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.037208s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001161s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:26+08:00 ] 127.0.0.1 GET /admin/nav/clist.html
+[ info ] tp5.com/admin/nav/clist.html [运行时间：0.216152s][吞吐率：4.63req/s] [内存消耗：2,922.63kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'nav',
+    2 => 'clist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/nav/clist_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Nav->clist[ E:\phpStudy\WWW\tp5\application\admin\controller\Nav.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\nav\clist.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001804s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027282s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_nav` [ RunTime:0.061477s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_nav` LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_nav` LIMIT 0,15 [ RunTime:0.001361s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:26+08:00 ] 127.0.0.1 GET /admin/nav/Image/loading.gif
+[ info ] tp5.com/admin/nav/Image/loading.gif [运行时间：0.167961s][吞吐率：5.95req/s] [内存消耗：2,699.37kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'nav',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/nav/clist.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/nav/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002820s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.067935s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001099s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:28+08:00 ] 127.0.0.1 GET /admin/my_auth/index.html
+[ info ] tp5.com/admin/my_auth/index.html [运行时间：0.138452s][吞吐率：7.22req/s] [内存消耗：2,982.54kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\MyAuth->index[ E:\phpStudy\WWW\tp5\application\admin\controller\MyAuth.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\my_auth\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001999s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.029644s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_menu` ORDER BY `o`,`id` [ RunTime:0.001321s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:28+08:00 ] 127.0.0.1 GET /admin/my_auth/Image/loading.gif
+[ info ] tp5.com/admin/my_auth/Image/loading.gif [运行时间：0.119614s][吞吐率：8.36req/s] [内存消耗：2,707.61kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'my_auth',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/my_auth/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/my_auth/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007426s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.029953s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001133s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:30+08:00 ] 127.0.0.1 GET /admin/banner/index.html
+[ info ] tp5.com/admin/banner/index.html [运行时间：0.235857s][吞吐率：4.24req/s] [内存消耗：2,929.92kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\banner\index.html [ array (
+  0 => 'nav_list',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014283s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.047793s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_banner` [ RunTime:0.038393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_banner` LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_banner` ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:30+08:00 ] 127.0.0.1 GET /admin/banner/Image/loading.gif
+[ info ] tp5.com/admin/banner/Image/loading.gif [运行时间：0.223186s][吞吐率：4.48req/s] [内存消耗：2,699.66kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/banner/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005286s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.107858s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.006933s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:32+08:00 ] 127.0.0.1 GET /admin/friendlink/index.html
+[ info ] tp5.com/admin/friendlink/index.html [运行时间：0.182139s][吞吐率：5.49req/s] [内存消耗：2,923.63kb] [文件加载：63]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'friendlink',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/friendlink/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Friendlink->index[ E:\phpStudy\WWW\tp5\application\admin\controller\Friendlink.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\tp5\public/../application/admin\view\friendlink\index.html [ array (
+  0 => 'nav_list',
+  1 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001805s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.027601s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_link` [ RunTime:0.046822s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ta_link` LIMIT 1 [ RunTime:0.003268s ]
+[ sql ] [ SQL ] SELECT * FROM `ta_link` LIMIT 0,15 [ RunTime:0.001661s ]
+---------------------------------------------------------------
+[ 2018-05-22T15:41:32+08:00 ] 127.0.0.1 GET /admin/friendlink/Image/loading.gif
+[ info ] tp5.com/admin/friendlink/Image/loading.gif [运行时间：0.114652s][吞吐率：8.72req/s] [内存消耗：2,696.83kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'friendlink',
+    2 => 'Image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp5.com/admin/friendlink/index.html',
+  'cookie' => 'PHPSESSID=ekg16l6ano0qjnkme5rt2egjd0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/friendlink/Image/loading_gif' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002154s ] mysql:host=127.0.0.1;port=3306;dbname=tp5admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ta_menu` [ RunTime:0.030690s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`model_name`,`action_name`,`info`,`status`,`pid`,`o`,`icon`,`is_menu`,`desc` FROM `ta_menu` WHERE  `status` = 1  AND `is_menu` = 1 ORDER BY `o`,`id` [ RunTime:0.001161s ]
