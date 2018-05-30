@@ -1,9 +1,32 @@
+注意事项：本系统如果在Linux服务器下部分后台功能报错的话请给 application\extra 下的所有文件赋 777的权限
+
+
+更新日志：
+    2018.1.26  新增文章模块预览图限制宽高 【后台】
+
+
+添加的表有
+    cmstop_qudonghao_phone_code  //短信验证码
+    cmstop_qudonghao_user       //必须用手机号注册
+    cmstop_qudonghao_info       //用户认证信息
+
+
+
+    content表新增字段有qudonghao_userid  int        10
+                       qudonghao_img     varchar    800
+
+    专栏页修改
+    用户发布成功 文章数+1
+
+功能新增
+微信模块
+    wechat 模块下 $this->access_token 可以获取到access_token
 
         layer.confirm('您确定要封禁此用户？', {
             btn: ['确定','取消'] //按钮
         }, function(){
             //layer.msg('的确很重要', {icon: 1});
-            var url = "{:U('User/bind_user')}";
+            var url = "{:url('User/bind_user')}";
             $.post(url,{id:id},function(e){
                 if(e.status ==1 ){
                     layer.msg(e.msg, {icon: 1});
@@ -14,13 +37,44 @@
         }, function(){
             layer.msg('取消成功', {icon: 1});
         });
-    }
+
 
     $data['status'] = 1;
     $data['msg'] = '成功';
     $data['data'] = '';
     echo json_encode($data);die;
 
+    function detail(id) {
+        var url = "{:url('detail')}?id="+id;
+        layer.open({
+            type: 2,
+            title: '信息详情',
+            shadeClose: true,
+            shade: 0.8,
+            area: ['80%', '90%'],
+            content: url //iframe的url
+        });
+    }
+
+
+function index() {
+        var url ="http://qudonghao.com/getindex";
+        var uid = "index";
+        $.ajax({
+            url:url,
+            data:{uid:uid},
+            type:"post",
+            dataType:"json",
+            beforeSend: function(){
+                $('.loading').css('display','block');
+            },
+            success:function (data) {
+                $('.loading').css('display','none');
+                $('.count').html(data.count);
+                $('.pv').html(data.pv);
+            }
+        })
+    }
 powered by qq 571031767 微博：沙坪坝韩宇  网站：micuer.com
 
 

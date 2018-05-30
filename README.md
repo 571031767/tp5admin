@@ -3,3 +3,8 @@ tp5admin是一款基于thinkphp5.0框架开发的后台框架！框架包含了�
 
 下载源文件地址：
 <http://micuer.com/index.php?m=index&a=read&id=283>
+
+1 演示地址<http://admin.micuer.com>
+    用户名：test  密码：test
+    
+    

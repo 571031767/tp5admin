@@ -19,6 +19,10 @@ class Index extends Common
 
     public function welcome()
     {
+        $user = \app\admin\model\User::get(9);
+        p($user);
+        p($user->article()->where(['status'=>1])->select());
+        echo 1111;die;
         //会员总数
         $user_count = Db::name("user")->count("id");
         $this->assign("user_count",$user_count);
