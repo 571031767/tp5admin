@@ -1,13 +1,13 @@
 {
     "name": "topthink/think/tp5adminp_powered_by_qq571031767",
-    "description": "the new thinkphp framework",
+    "description": "the new  framework",
     "type": "project",
     "keywords": [
         "framework",
         "thinkphp",
         "ORM"
     ],
-    "homepage": "http://thinkphp.cn/",
+    "homepage": "http://micuer.com/",
     "license": "Apache-2.0",
     "authors": [
         {
