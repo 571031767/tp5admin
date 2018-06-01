@@ -53,3 +53,7 @@ function open(url,title) {
     }
 
 }
+
+function redirect(url) {
+    location.href = url;
+}

@@ -25,26 +25,42 @@ class User extends Controller
     {
         $username = Request::instance()->post('username');
         $password = Request::instance()->post('password');
-
-        if($username && $password){
-            $res =  Db::name('user')->where('username',$username)->find();
-            //echo  Db::name('user')->getLastSql();
-            if(!$res){
-                $this->error('用户名不存在');
+        if(Request::instance()->isAjax()){
+            if($username && $password){
+                $res =  Db::name('user')->where('username',$username)->find();
+                //echo  Db::name('user')->getLastSql();
+                if(!$res){
+                    $data["status"] = 0;
+                    $data["msg"] = "用户名不存在";
+                    return json($data);
+                }
+                if($res['password'] != md5($password)){
+                    $data["status"] = 0;
+                    $data["msg"] = "密码错误";
+                    return json($data);
+                }
+                Session::set('username',$username);
+                Session::set('uid',$res['id']);
+                if(!$res['headimgurl']){
+                    $res['headimgurl'] = "http://micuer.com/data/upload/pics/5af55457613ce.JPG";
+                }
+                Session::set('headimgurl',$res['headimgurl']);
+                $data["status"] = 1;
+                $data["msg"] = "登录成功";
+                $data["next_url"] = Url::build("admin/index/index");
+                return json($data);
+            }else{
+                $data["status"] = 0;
+                $data["msg"] = "用户名和密码都不为空";
+                return json($data);
             }
-            if($res['password'] != md5($password)){
-                $this->error('用户密码错误');
-            }
-            Session::set('username',$username);
-            Session::set('uid',$res['id']);
-            if(!$res['headimgurl']){
-                $res['headimgurl'] = "http://micuer.com/data/upload/pics/5af55457613ce.JPG";
-            }
-            Session::set('headimgurl',$res['headimgurl']);
-            $this->success('成功',Url('index/index'));
         }else{
-            return $this->redirect(Url('user/index'));
+            $data["status"] = 0;
+            $data["msg"] = "请求方式错误";
+            return json($data);
         }
+
+
 
     }
 
