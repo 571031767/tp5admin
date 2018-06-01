@@ -16,6 +16,8 @@ class Cache extends Common
 
     public function clear()
     {
+        \think\Cache::rm("nav_list");//清空后台菜单数据缓存
+
         deleteAll(ROOT_PATH.'./runtime/cache');
         $data['status'] =1;
         $data['msg'] = "清理成功";

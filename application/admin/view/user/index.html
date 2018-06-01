@@ -53,7 +53,8 @@
         $.post(url,{username:username,password:password},function(e){
             if(e.status == 1){
                 success(e.msg);
-                redirect(e.next_url);
+                window.location.href=e.next_url;
+
             }else {
                 error(e.msg);
             }

@@ -5,11 +5,13 @@ use think\Config;
 use think\Controller;
 use think\Db;
 
+
 class Index extends Common
 {
 
     public function index()
     {
+
         $ip = $_SERVER['REMOTE_ADDR'];
         $this->assign('ip',$ip);
         $this->assign('domain',$this->request->url(true));

@@ -12,18 +12,23 @@ class Common extends Controller
     public function _initialize()
     {
         header("Content-type: text/html; charset=utf-8");
+
         if(!Session::get('username')){
             $this->error('用户未登录',Url('User/index'));
         }
-        $nav_list = Db::name('menu')->where(['status'=>1,'is_menu'=>1])->field(true)->order('o,id')->select();
-        foreach($nav_list as $k => $v){
+        if(\think\Cache::get("nav_list")){
+            $nav_list = \think\Cache::get("nav_list");
+        }else{
+            $nav_list = Db::name('menu')->where(['status'=>1,'is_menu'=>1])->field(true)->order('o,id')->select();
+            foreach($nav_list as $k => $v){
                 $t_url = $v['model_name'].'/'.$v['action_name'] ;
                 $nav_list[$k]['url'] = url($t_url);
+            }
+
+            $nav_list = unlimitforlayer($nav_list);//列表项重新组合
+            \think\Cache::set('nav_list',$nav_list);
         }
-
-        $nav_list = unlimitforlayer($nav_list);//列表项重新组合
         $this->assign('nav_list',$nav_list);
-
 
         //auth权限认证
         $res = include './application/myclass/Auth.php';

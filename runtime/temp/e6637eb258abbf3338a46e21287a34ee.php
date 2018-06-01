@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\phpStudy\WWW\tp5\public/../application/admin\view\index\welcome.html";i:1526521956;s:59:"E:\phpStudy\WWW\tp5\application\admin\view\public\head.html";i:1526972461;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\phpStudy\WWW\tp5\public/../application/admin\view\index\welcome.html";i:1527674170;s:59:"E:\phpStudy\WWW\tp5\application\admin\view\public\head.html";i:1526972461;}*/ ?>
 <title>后台通用版软件by 沙坪坝韩宇 QQ571031767</title>
 <script src="/static/loading.js"></script>
 <!--本文件只包含一些相应的js  css 等文件-->
@@ -177,7 +177,7 @@
     // 指定图表的配置项和数据
     option = {
         title : {
-            text: '网站会员分布',
+            text: '测试代码',
             subtext: 'micuer.com',
             x:'center'
         },
